@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="/assets/fonts/Poppins/stylesheet.css">
+    <link rel="stylesheet" href="/assets/fonts/Roboto/stylesheet.css">
+    <title>Cryptech</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="#impact">
+                <img src="assets/img/logo.png" alt="site logo" id="site_logo">
+            </a>
+                
+        </div>
+
+        <nav>
+            <a href="#pathfinder">pathfinder</a>
+            <a href="#inspector">inspector</a>
+            <a href="#cryptopedia">cryptopedia</a>
+            <a href="javascript:changeMode()" id="mode_icon"><i class="fa-solid fa-moon"></i> </a>
+            <a href="javascript:changeLang()"><img src="assets/img/it.png" alt="lang-flag" id="lang_icon"></a>
+
+        </nav>
+
+        <nav class="mobile-nav" id="mobile-nav">
+            <a href="javascript:openmobilenav()" id="hamburgher"><i class="fa-solid fa-bars"></i></a>
+        </nav>
+
+        <div class="curtain-nav" id="curtain-nav">
+            <ul>
+                <li><a href="#impact">home </a></li>
+                <li><a href="#pathfinder">pathfinder </a></li>
+                <li><a href="#inspector">inspector</a></li>
+                <li><a href="javascript:changeMode()" id="mode_icon_mobile"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="javascript:changeLang()"><img src="assets/img/it.png" alt="lang-flag" id="lang_icon_mobile"></a></li>
+            </ul>
+        </div>
+
+
+    </header>
+  
+    <section class="impact" id="impact">
+        <div class="impact_container">
+            <div class="impact_container_column-60">
+                <h1 id="impact_title">CRYPTOCURRENCY</h1>
+                <h4 id="impact_sub-title">THE FUTURE OF VIRTUAL COIN</h4>
+                <p id="impact_text">join the world of cryptocurrencies with the best tools to dig deep into the crypto market. Discover our wide range of products and choose the ones that are right for you in full freedom.
+
+                </p>
+            </div>
+
+            <div class="impact_container_column-40">
+                <img src="assets/img/impact-img.png" alt="impact-img">
+            </div>
+        </div>
+
+        <div class="impact_discover">
+            <p id="impact_cta">discover</p>
+            <a href="#our_services_title"><i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+        
+    </section>
+
+
+    <div class="our-services">
+        <h2 id="our_services_title">Our services</h2>
+
+        <div class="our-services_box">
+            <i class="fas fa-chart-line"></i>
+            <h4>Pathfinder</h4>
+            <p id="pathfinder_text">discover the most curious statistics on the main blockchains</p>
+        </div>
+
+        <div class="our-services_box">
+            <i class="fa-solid fa-user-secret"></i>
+            <h4>Inspector</h4>
+            <p id="inspector_text">analyzes any bitcoin address obtaining the information in real time
+            </p>
+        </div>
+
+        <div class="our-services_box">
+            <i class="fa-solid fa-book"></i>
+            <h4>Cryptopedia</h4>
+            <p>understand how blockchain works and its mechanisms</p>
+        </div>
+    </div>
+
+    <section class="service" id="pathfinder">
+        <div class="service_title">
+            <h3>Pathfinder</h3>
+        </div>
+
+        <div class="service_container">
+            <div class="service_container-box">
+                <div class="service_container-box-title">
+                    <div class="service_container-box-title_icon">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                    <div class="service_container-box-title-sub">
+                        <h4 id="pathfinder_info_1">24h avg price</h4>
+                    </div>
+                </div>
+
+                <div class="service_container-box-body">
+                    <p id="24hAvgPrice">0$</p>
+                </div>
+
+            </div>
+            <div class="service_container-box">
+                <div class="service_container-box-title">
+                    <div class="service_container-box-title_icon">
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                    <div class="service_container-box-title-sub">
+                        <h4 id="pathfinder_info_2">Number of transactions</h4>
+                    </div>
+                </div>
+                <div class="service_container-box-body">
+                    <p id="24hTransactionsCount">0</p>
+                </div>
+            </div>
+            <div class="service_container-box">
+                <div class="service_container-box-title">
+                    <div class="service_container-box-title_icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <div class="service_container-box-title-sub">
+                        <h4 id="pathfinder_info_3">Market cap.</h4>
+                    </div>
+                </div>
+
+                <div class="service_container-box-body">
+                    <p id="market_cap">0</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="service service-remove-margin">
+        <div class="service_title service-remove-margin">
+            <h3>Inspector</h3>
+        </div>
+
+        <div class="inspector" id = "inspector">
+            <input type="text" placeholder= "search address" onchange="searchAddress(this)" onkeypress="randomAddress(this, event)">
+            <label for=""><i class="fa-solid fa-circle-info"></i> type / to generate random address</label>
+            <div class="inspector_container">
+                <div class="inspector_container-box">
+                    <div class="inspector_container-box-title">
+                        <div class="inspector_container-box-title-icon">
+                            <i class="fa-solid fa-sack-dollar"></i>
+                        </div>
+                        <div class="service_container-box-title-sub inspector_container-box-title-text">
+                            <h4 id="inspector_info_1">Final balance</h4>
+                        </div>
+                    </div>
+
+                    <div class="inspector_container-box-body">
+                        <p id="final-balance-address">0</p>
+                    </div>
+
+                </div>
+                <div class="inspector_container-box">
+                    <div class="inspector_container-box-title margin-fixed">
+                        <div class="inspector_container-box-title-icon">
+                            <i class="fa-solid fa-credit-card"></i>
+                        </div>
+                        <div class="service_container-box-title-sub inspector_container-box-title-text">
+                            <h4 id="inspector_info_2">N. transactions</h4>
+                        </div>
+                    </div>
+
+                    <div class="inspector_container-box-body">
+                        <p id="n-transactions-address">0</p>
+                    </div>
+
+                </div>
+                <div class="inspector_container-box">
+                    <div class="inspector_container-box-title">
+                        <div class="inspector_container-box-title-icon">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <div class="service_container-box-title-sub inspector_container-box-title-text">
+                            <h4 id="inspector_info_3">Bitcoin in</h4>
+                        </div>
+                    </div>
+
+                    <div class="inspector_container-box-body">
+                        <p id="bitcoin-in-address">0</p>
+                    </div>
+
+                </div>
+                <div class="inspector_container-box">
+                    <div class="inspector_container-box-title">
+                        <div class="inspector_container-box-title-icon">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                        <div class="service_container-box-title-sub inspector_container-box-title-text">
+                            <h4 id="inspector_info_4">Bitcoin out</h4>
+                        </div>
+                    </div>
+
+                    <div class="inspector_container-box-body">
+                        <p id="bitcoin-out-address">0</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        
+
+    </section>
+
+    <section class="service" id="cryptopedia">
+        <div class="service_title">
+            <h3>Cryptopedia</h3>
+        </div>
+
+        <div class="cryptopedia_container">
+            <div class="cryptopedia_container-box">
+                <div class="cryptopedia_container-box-image">
+                    <img src="assets/img/crypto/bitcoin.png" id="bitcoin-img" alt="bitcoin-img">
+                </div>
+
+                <div class="cryptopedia_container-box-text">
+                    <h4>Bitcoin</h4>
+                    <p id="bitcoin-text">a purely peer-to-peer version of digital money.</p>
+                    <a href="#">Go to</a>
+                </div>
+            </div>
+
+            <div class="cryptopedia_container-box">
+                <div class="cryptopedia_container-box-image">
+                    <img src="assets/img/crypto/ethereum.png"  alt="ethereum-img">
+                </div>
+
+                <div class="cryptopedia_container-box-text">
+                    <h4>Ethereum</h4>
+                    <p id="ethereum-text">a decentralized, open-source blockchain with smart contract functionality.</p>
+                    <a href="#">Go to</a>
+                </div>
+            </div>
+
+            <div class="cryptopedia_container-box">
+                <div class="cryptopedia_container-box-image">
+                    <img src="assets/img/crypto/tether.png"  alt="tether-img">
+                </div>
+
+                <div class="cryptopedia_container-box-text">
+                    <h4>Tether</h4>
+                    <p id="tether-text">blockchain-as-a-service which aims to provide a solution for product monitoring.</p>
+                    <a href="#">Go to</a>
+                </div>
+            </div>
+
+            <div class="cryptopedia_container-box">
+                <div class="cryptopedia_container-box-image">
+                    <img src="assets/img/crypto/cardano.png"  alt="cardano-img">
+                </div>
+
+                <div class="cryptopedia_container-box-text">
+                    <h4>Cardano</h4>
+                    <p id="cardano-text">platform for the execution of smart contracts, conceptually similar to ethereum.</p>
+                    <a href="#">Go to</a>
+                </div>
+            </div>
+
+            <div class="cryptopedia_container-box">
+                <div class="cryptopedia_container-box-image">
+                    <img src="assets/img/crypto/ripple.png" id="ripple-img"  alt="ripple-img">
+                </div>
+
+                <div class="cryptopedia_container-box-text">
+                    <h4>Ripple</h4>
+                    <p id="ripple-text">is a peer-to-peer protocol created for the global transfer of funds in a secure and low-cost manner.</p>
+                    <a href="#">Go to</a>
+                </div>
+            </div>
+
+            <div class="cryptopedia_container-box">
+                <div class="cryptopedia_container-box-image">
+                    <img src="assets/img/crypto/eos.png" id="eos-img" alt="eos-img">
+                </div>
+
+                <div class="cryptopedia_container-box-text">
+                    <h4>Eos</h4>
+                    <p id="eos-text">blockchain-based ecosystem for developing decentralized applications.</p>
+                    <a href="#">Go to</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer_box">
+        </div>
+        <div class="footer_box">
+            <p>© 2022 cryptech</p>
+        </div>
+        <div class="footer_box">
+            <p>Made with ❤️ by Paolo D'Alessandro</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/scripts/main.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://kit.fontawesome.com/9d05a115fd.js" crossorigin="anonymous"></script>
+</body>
+</html>
