@@ -17,7 +17,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Install NVM
-        working-directory: progetto_frontend_vanilla
+        working-directory: progetto-frontend-vanilla
         run: |
           curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
           export NVM_DIR="$HOME/.nvm"
@@ -27,7 +27,7 @@ jobs:
           nvm install
           nvm use
       - name: Build
-        working-directory: progetto_frontend_vanilla
+        working-directory: progetto-frontend-vanilla
         run: |
           npm install
           npm run build
@@ -35,5 +35,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ${{github.ref_name}}-${{ github.sha }}
-          path: ./progetto_frontend_vanilla/dist/
+          path: ./progetto-frontend-vanilla/dist/
       
