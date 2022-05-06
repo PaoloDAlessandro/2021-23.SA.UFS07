@@ -16,12 +16,12 @@
 13 - Hanu C.
 14 - Hanu R.
 15 - Lin
-16 - 
+16 - Lucchini 
 17 -
 18 -
 19 -
-20 -
-21 -
+20 - Santoro
+21 - Stefani
 22 -
 23 -
 
