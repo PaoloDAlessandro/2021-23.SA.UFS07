@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/compare/v1.1.3...v1.2.0) (2022-05-09)
+
+
+### Features
+
+* add npx surge deploy step ([bbd3454](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/bbd3454b25c09ba7a605f55a841df68951589016))
+* add Public surge.sh URL ([c5d247c](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/c5d247c8693c06bd5dc7b1da05807780094c12c9))
+
 ### [1.1.3](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/compare/v1.1.2...v1.1.3) (2022-05-09)
 
 
