@@ -1,6 +1,8 @@
 name: GitHub Actions Demo
 on:
   push:
+    tags-ignore:
+      - v**
   workflow_call:
 jobs:
   Explore-GitHub-Actions:
