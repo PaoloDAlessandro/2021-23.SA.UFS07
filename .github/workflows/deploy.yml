@@ -2,7 +2,7 @@ name: Deploy on Surge.sh
 on:
   push:
     tags:
-      - v.** # comment this to run on every push for debuggin purposes
+      - v** # comment this to run on every push for debuggin purposes
 jobs:
   build:
       uses: ./.github/workflows/github-actions-demo.yml
