@@ -1,0 +1,17 @@
+name: Deploy on Surge.sh
+on:
+  push:
+    tags:
+jobs:
+  build:
+      uses: ./.github/workflows/github-actions-demo.yml
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{github.ref_name}}-${{ github.sha }}
+      - name: List files in the repository
+        run: |
+          ls -la
