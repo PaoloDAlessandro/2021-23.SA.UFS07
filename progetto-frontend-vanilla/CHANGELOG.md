@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/compare/v1.0.0...v1.1.0) (2022-05-09)
+
+
+### Features
+
+* **changelog:** add standard-version release script ([b67d32f](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/b67d32f1a80492f41040762ed98c102f610a9788))
+
 ## 1.0.0 (2022-05-09)
 
 
