@@ -13,6 +13,9 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: ${{github.ref_name}}-${{ github.sha }}
+          path: dist
       - name: List files in the repository
         run: |
           ls -la
+          ls -la dist
+          cat dist/CHANGELOG.md
