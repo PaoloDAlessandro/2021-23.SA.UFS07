@@ -6,6 +6,7 @@ on:
   workflow_call:
 jobs:
   Explore-GitHub-Actions:
+    if: "!contains(github.event.head_commit.message, 'chore(release)')"
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
