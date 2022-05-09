@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/compare/v1.2.0...v1.2.1) (2022-05-09)
+
+
+### Bug Fixes
+
+* non asci dash ([fd0b551](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/fd0b5517cc52743ac0e14c3b71715f058fe27ecf))
+
 ## [1.2.0](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/compare/v1.1.3...v1.2.0) (2022-05-09)
 
 
