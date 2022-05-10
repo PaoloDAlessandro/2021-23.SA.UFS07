@@ -1,13 +1,13 @@
-name: GitHub Actions Demo
+name: our build workflow
 on:
   push:
     branches:
       - '**'
     tags-ignore:
       - v**
-    workflow_call:
+  workflow_call:
 jobs:
-  Explore-GitHub-Actions:
+  build:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -21,24 +21,20 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: Install NVM
-        working-directory: progetto-frontend-vanilla
+      - name: nvm setup
         run: |
-          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-          export NVM_DIR="$HOME/.nvm"
-          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-          nvm --version
-          nvm install
-          nvm use
-      - name: Build
-        working-directory: progetto-frontend-vanilla
-        run: |
-          npm install
-          npm run build
+            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+            [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+            cd progetto-frontend-vanilla
+            nvm install
+            nvm use
+            npm install
+            npm run build
       - name: Upload the artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ${{github.ref_name}}-${{ github.sha }}
+          name: artefatto
           path: ./progetto-frontend-vanilla/dist/
       
