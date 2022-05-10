@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.2.0...v1.2.1) (2022-05-10)
+
+
+### Bug Fixes
+
+* change artifact name on actions-demo ([033543b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/033543be098d7464b851e67c0563f1ef1a55ee96))
+
 ## 1.2.0 (2022-05-10)
 
 
