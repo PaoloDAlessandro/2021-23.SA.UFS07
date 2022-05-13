@@ -17,7 +17,7 @@
 14 - Hanu R.
 15 - Lin
 16 - Lucchini 
-17 -
+17 - Marcandalli
 18 - Pensabene
 19 - Rabosio
 20 - Santoro
