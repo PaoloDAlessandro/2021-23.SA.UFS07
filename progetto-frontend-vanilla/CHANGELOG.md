@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/compare/v1.2.1...v1.5.0) (2022-05-13)
+
+
+### Features
+
+* added myself ([7672ce2](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/7672ce2385aa8e1922f3e925487b1149f2cea33e))
+* agginto Rabosio a studentrs ([32f3250](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/32f32504aa9e2edbc764864d523a9bf48dc45adc))
+* **design-system:** add chromatic ([f3cd7ce](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/f3cd7ce6fbba0a9e4c6b95e4cb932703c8afc131))
+* **design-system:** init ([8da73b4](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/8da73b429c9d4f158bbd0cc6853ce9b2d5a7a79b))
+* **design-system:** sb init ([f6e1e6b](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/f6e1e6b505ef58a80b6b24bb46344a1adb1ae3c2))
+
+
+### Bug Fixes
+
+* **design-system:** fix deps ([74878b1](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/74878b1be01f47ddb2a77f4c0258175b56101aa6))
+* **design-system:** ignore chromatic build-storybook logs ([a25fe89](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/a25fe890dcf794405e9efd4010f84c17676113ef))
+* **design-system:** ignore node_modules ([74bf64e](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/74bf64ea44d415ddf1624dfec545b1bb3e28f05d))
+* **design-system:** ignore storybook-static ([3172bd0](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/commit/3172bd04f78042e937eccb9036e69525994e25b7))
+
 ## [1.4.0](https://github.com/aaglietti-itsrizzoli/2021-23.SA.UFS07/compare/v1.2.1...v1.4.0) (2022-05-13)
 
 
