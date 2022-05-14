@@ -6,7 +6,7 @@
     <title>Hello React!</title>
 
     <script src="https://unpkg.com/react@16.14.0/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom-server.browser.production.min.js"></script>
   </head>
 
   <body>
@@ -29,11 +29,12 @@
             null // children
         );
 
-        var reactContainer = document.getElementById('reactContainer');
-        ReactDOM.render(
-            aReactDiv, // a react component
-            reactContainer // the react container
-        );
+        // Render to static markup
+        var reactStaticMarkup = ReactDOMServer.renderToStaticMarkup(aReactDiv);
+
+        // Add the static markup to the container
+        var reactContainer = document.getElementById("reactContainer");
+        reactContainer.innerHTML = reactStaticMarkup;
     </script>
   </body>
 </html>
