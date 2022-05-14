@@ -6,35 +6,28 @@
     <title>Hello React!</title>
 
     <script src="https://unpkg.com/react@16.14.0/umd/react.production.min.js"></script>
-    <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom-server.browser.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
   </head>
 
   <body>
     <h1>React 101</h1>
     <div id="reactContainer"></div>
 
-    <script type="text/javascript">
+    <script type="text/babel">
         class Hello extends React.Component {
             render() {
-                return React.createElement('div', null, `toWhat: ${this.props.toWhat}`);
+                return (
+                    <div>{`toWhat: ${this.props.toWhat}`}</div>
+                );
             }
         }
 
-        var aReactDivProps = {
-            toWhat: 'prop value'
-        };
-        var aReactDiv = React.createElement(
-            Hello, // a class that extends React.Component as a element type
-            aReactDivProps, // props for the component
-            null // children
-        );
-
-        // Render to static markup
-        var reactStaticMarkup = ReactDOMServer.renderToStaticMarkup(aReactDiv);
-
-        // Add the static markup to the container
         var reactContainer = document.getElementById("reactContainer");
-        reactContainer.innerHTML = reactStaticMarkup;
+        ReactDOM.render(
+            <Hello toWhat={'prop value'} />,
+            reactContainer
+        );
     </script>
   </body>
 </html>
