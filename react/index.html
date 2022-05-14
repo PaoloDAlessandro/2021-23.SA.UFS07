@@ -14,11 +14,21 @@
     <div id="reactContainer"></div>
 
     <script type="text/javascript">
+        class Hello extends React.Component {
+            render() {
+                return React.createElement('div', null, `toWhat: ${this.props.toWhat}`);
+            }
+        }
+
+        var aReactDivProps = {
+            toWhat: 'prop value'
+        };
         var aReactDiv = React.createElement(
-            "div", // type
-            [], //props
-            "Ciao" // children
+            Hello, // a class that extends React.Component as a element type
+            aReactDivProps, // props for the component
+            null // children
         );
+
         var reactContainer = document.getElementById('reactContainer');
         ReactDOM.render(
             aReactDiv, // a react component
