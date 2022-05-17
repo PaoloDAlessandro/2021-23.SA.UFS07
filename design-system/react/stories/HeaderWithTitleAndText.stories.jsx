@@ -4,7 +4,7 @@ import { within, userEvent } from '@storybook/testing-library';
 import { HeaderWithTitleAndText } from '../src/templates/headerWithTitleAndText/headerWithTitleAndText';
 
 export default {
-  title: 'Example/Templates',
+  title: 'Example/Templates/HeaderWithTitleAndText',
   component: HeaderWithTitleAndText,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
