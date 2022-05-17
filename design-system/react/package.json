@@ -1,8 +1,14 @@
 {
-  "name": "react",
+  "name": "test-1-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "files": [
+    "atoms/**",
+    "molecules/**",
+    "templates/**",
+    "umd/**",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
