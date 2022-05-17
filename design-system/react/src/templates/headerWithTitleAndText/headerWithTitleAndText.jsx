@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { Header } from '../../molecules/header/Header';
-import './page.css';
+import './headerWithTitleAndText.css';
 
-export const Page = () => {
+export const HeaderWithTitleAndText = () => {
   const [user, setUser] = React.useState();
 
   return (

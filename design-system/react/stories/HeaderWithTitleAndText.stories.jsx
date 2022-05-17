@@ -1,18 +1,18 @@
 import React from 'react';
 import { within, userEvent } from '@storybook/testing-library';
 
-import { Page } from '../src/templates/page/Page';
+import { HeaderWithTitleAndText } from '../src/templates/headerWithTitleAndText/headerWithTitleAndText';
 
 export default {
-  title: 'Example/Page',
-  component: Page,
+  title: 'Example/Templates',
+  component: HeaderWithTitleAndText,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'fullscreen',
   },
 };
 
-const Template = (args) => <Page {...args} />;
+const Template = (args) => <HeaderWithTitleAndText {...args} />;
 
 // More on interaction testing: https://storybook.js.org/docs/react/writing-tests/interaction-testing
 export const LoggedOut = Template.bind({});
