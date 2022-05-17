@@ -5,6 +5,17 @@
     ]
   ],
   "env": {
+    "production-umd": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            // https://babeljs.io/docs/en/babel-preset-env#modules
+            "modules": "umd"
+          }
+        ]
+      ]
+    },
     "production": {
     },
     "development": {
