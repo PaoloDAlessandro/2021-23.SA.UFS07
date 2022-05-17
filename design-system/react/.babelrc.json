@@ -14,6 +14,11 @@
             "modules": "umd"
           }
         ]
+      ],
+      "plugins": [
+        [
+          "transform-react-remove-prop-types"
+        ]
       ]
     },
     "production": {
