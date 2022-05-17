@@ -25,3 +25,10 @@ jobs:
           echo "GITHUB_REF is $GITHUB_REF"
           echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
           tail -1 $GITHUB_ENV
+      - name: Deploy on NPM
+        working-directory: dist-npm
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          echo "We'll publish the ${{ env.RELEASE_VERSION }} package version on NPM"
+          npm publish --tag ${{ env.RELEASE_VERSION }}
