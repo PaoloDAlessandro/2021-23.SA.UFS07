@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/ITSRizzoli/2021-23.SA.UFS07/compare/1.0.0...1.1.0) (2022-05-17)
+
+
+### Features
+
+* **components-pipeline-3:** add standard-version ([adf55d6](https://github.com/ITSRizzoli/2021-23.SA.UFS07/commit/adf55d660b3a3188713cc6307b41c923c0316f2b))
+* **components-pipeline-3:** npm setup for publish ([ef96a76](https://github.com/ITSRizzoli/2021-23.SA.UFS07/commit/ef96a764e1557f3b91bfeae34a103c26f3b236a1))
+
 ## 1.0.0 (2022-05-17)
 
 
