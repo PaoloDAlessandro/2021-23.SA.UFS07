@@ -55,4 +55,14 @@ jobs:
         with:
           name: ${{github.ref_name}}-${{ github.sha }}
           path: ./progetto-frontend-vanilla/dist/
+      - name: Build design system
+        working-directory: design-system/react
+        run: |
+          npm run build
+          npm run build-umd
+      - name: Upload the design system artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: design-system-${{github.ref_name}}-${{ github.sha }}
+          path: ./design-system/react/dist/
       
