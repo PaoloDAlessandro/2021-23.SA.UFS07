@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "cross-env BABEL_ENV=production babel src --copy-files --out-dir dist"
   },
   "keywords": [],
   "author": "",
@@ -41,6 +42,7 @@
     "babel-plugin-macros": "^3.1.0",
     "babel-plugin-polyfill-corejs3": "^0.5.2",
     "chromatic": "^6.5.4",
-    "core-js": "^3.22.5"
+    "core-js": "^3.22.5",
+    "cross-env": "^7.0.3"
   }
 }
