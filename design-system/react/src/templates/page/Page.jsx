@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header } from '../src/molecules/header/Header';
+import { Header } from '../../molecules/header/Header';
 import './page.css';
 
 export const Page = () => {
