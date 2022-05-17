@@ -3,7 +3,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     devServer: {
-        watchFiles: ['js/**/*.js', 'index.html', 'css/**/.css', 'img/**/*.png'],
+        watchFiles: [
+            'js/**/*.js',
+            'js/**/*.jsx',
+            'index.html',
+            'css/**/.css',
+            'img/**/*.png'
+        ],
         compress: true,
         port: 9000,
         host: "0.0.0.0", // needed on GitPod
@@ -12,13 +18,22 @@ module.exports = {
             webSocketURL: {
                 // needed on GitPod because it proxy like
                 // https://{port}-{gitpoduserhost}.gitpod.io
-                port: 443,
+                port: process.env.GITPOD_WORKSPACE_ID ? '443': 9000,
             },
         }
     },
     entry: "./js/index.js",
+    resolve: {
+        modules: [__dirname, "src", "node_modules"],
+        extensions: ["*", ".js", ".jsx", ".tsx", ".ts"],
+    },
     module: {
         rules: [
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                loader: require.resolve("babel-loader"),
+            },
             {
                 test: /\.css$/,
                 use: [
