@@ -1,0 +1,22 @@
+name: Deploy on NPM
+on:
+  push:
+    tags:
+      - ds** # comment this to run on every push for debuggin purposes
+jobs:
+  build:
+      uses: ./.github/workflows/github-actions-demo.yml
+      secrets: inherit
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - name: Download design system artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: design-system-${{github.ref_name}}-${{ github.sha }}
+          path: dist-npm
+      - name: List files in the repository
+        run: |
+          ls -la
+          ls -la dist-npm
