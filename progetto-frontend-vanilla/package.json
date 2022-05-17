@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "test-1-react": "^1.1.0"
   }
 }
