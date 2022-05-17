@@ -18,11 +18,18 @@
       "plugins": [
         [
           "transform-react-remove-prop-types"
+        ],
+        [
+          "@babel/plugin-transform-modules-umd",
+          {
+            "globals": {
+              "react": "React"
+            }
+          }
         ]
       ]
     },
-    "production": {
-    },
+    "production": {},
     "development": {
       "sourceType": "unambiguous",
       "presets": [
