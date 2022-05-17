@@ -60,6 +60,11 @@ jobs:
         run: |
           npm run build
           npm run build-umd
+          cp package.json dist/package.json
+          cp package-lock.json dist/package-lock.json
+          cp CHANGELOG.md dist/CHANGELOG.md
+          cp README.md dist/README.md
+          cp .npmrc dist/.npmrc
       - name: Upload the design system artifact
         uses: actions/upload-artifact@v2
         with:
