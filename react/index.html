@@ -8,6 +8,7 @@
     <script src="https://unpkg.com/react@16.14.0/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+    <script src="https://unpkg.com/test-1-react@1.1.0/umd/atoms/button/Button.js"></script>
   </head>
 
   <body>
@@ -18,7 +19,10 @@
         class Hello extends React.Component {
             render() {
                 return (
+                  <div>
                     <div>{`toWhat: ${this.props.toWhat}`}</div>
+                    <Button.Button label={'A LABEL'} onClick={() => alert('on click')} />
+                  </div>
                 );
             }
         }
