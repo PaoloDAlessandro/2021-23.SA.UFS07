@@ -1,6 +1,6 @@
 {
-  "name": "test-1-react",
-  "version": "1.2.0",
+  "name": "test-1-dalex",
+  "version": "1.2.1",
   "description": "",
   "files": [
     "atoms/**",
