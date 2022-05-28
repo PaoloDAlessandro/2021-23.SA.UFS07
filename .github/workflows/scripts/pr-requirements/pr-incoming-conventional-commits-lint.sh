@@ -20,6 +20,7 @@ IFS=$'\/' read -r prId _ <<< $GITHUB_REF_NAME
 echo "prId $prId"
 
 # fetch more commits
+# FIXME this is limited to the first 100 commits of the PR...
 prCommits=`gh pr view $prId --json commits | jq '.commits | length'`
 echo "prCommits: $prCommits"
 fetchDepthToPrBase=`expr $prCommits + 2`

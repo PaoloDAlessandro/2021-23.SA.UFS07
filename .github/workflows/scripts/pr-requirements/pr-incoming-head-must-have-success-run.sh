@@ -8,8 +8,8 @@ date
 gh auth status
 
 # env passed by GitHub Action environment
-# GITHUB_REF_NAME="36/merge"
-# GITHUB_HEAD_REF="patch-1"
+GITHUB_REF_NAME="20/merge"
+GITHUB_HEAD_REF="master"
 
 if [ -z "${GITHUB_REF_NAME}" ];
 then
@@ -53,13 +53,14 @@ fi
 # retrive head sha for run and pr
 runHeadSha=`gh run list --branch $GITHUB_HEAD_REF --repo $repo --limit 1 --json headSha | jq -r '.[0].headSha'`
 echo "runHeadSha: $runHeadSha"
-prHeadSha=`gh pr view $prId --json commits | jq -r '.commits | last | .oid'`
-echo "prHeadSha: $runHeadSha"
-if [ "$prHeadSha" != "$runHeadSha" ];
-then
-    echo "There is no run for the last commit of this PR"
-    exit 1
-fi
+# FIXME limited to 100 commits see https://github.com/cli/cli/issues/5415
+# prHeadSha=`gh pr view $prId --json commits | jq -r '.commits | last | .oid'`
+# echo "prHeadSha: $runHeadSha"
+# if [ "$prHeadSha" != "$runHeadSha" ];
+# then
+#     echo "There is no run for the last commit of this PR"
+#     exit 1
+# fi
 
 # retrieve metadata for the last run and check the status/conclusion
 gh run list --branch $GITHUB_HEAD_REF --repo $repo --limit 1 \
