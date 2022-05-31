@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.6.0...v1.6.1) (2022-05-31)
+
+
+### Bug Fixes
+
+* package-lock updated ([4f99639](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/4f99639651e5a43ea38404ad83a8e56708720bfd))
+* set right address folder on button app.jsx ([c7ec8f4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/c7ec8f48a10d42baa90843688d10b2254a48793f))
+
 ## 1.6.0 (2022-05-31)
 
 
