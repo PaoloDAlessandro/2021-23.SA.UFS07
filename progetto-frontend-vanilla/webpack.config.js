@@ -90,7 +90,11 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "index.html",
             inject: "body",
-            scriptLoading: "blocking"
+            scriptLoading: "blocking",
+            templateParameters: {
+                packageVersion: `v${process.env['PACKAGE_VERSION']}` || '',
+                designSystemVersion: `ds${process.env['DESIGN_SYSTEM_VERSION']}` || '',
+            }        
         })
     ],
 };
