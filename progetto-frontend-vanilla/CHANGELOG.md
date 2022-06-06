@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.6.1...v1.7.0) (2022-06-06)
+
+
+### Features
+
+* add package ([0607e57](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/0607e57a44b7c5f6b2f8dc6276262f4682aea96d))
+
+
+### Bug Fixes
+
+* add export on package version ([2ddce79](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/2ddce79a27616b73df160a0e96b2b7056bbd426e))
+
 ### [1.6.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.6.0...v1.6.1) (2022-05-31)
 
 
