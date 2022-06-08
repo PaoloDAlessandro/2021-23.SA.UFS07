@@ -14,9 +14,7 @@ export const TextItalic = ({ text }) => {
 };
 
 TextItalic.propTypes = {
-  /**
-   * Button contents
-   */
+
   text: PropTypes.string.isRequired,
 
 };
