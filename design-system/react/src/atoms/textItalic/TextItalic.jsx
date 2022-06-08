@@ -20,5 +20,7 @@ TextItalic.propTypes = {
 };
 
 TextItalic.defaultProps = {
+
     text: "empty text",
+    
 };
