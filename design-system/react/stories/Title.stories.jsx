@@ -13,6 +13,7 @@ export default {
 };
 
 const Template = (args) => <Title {...args}>
+      <Text text={"My Pantry"} />
 
   </Title>;
 
