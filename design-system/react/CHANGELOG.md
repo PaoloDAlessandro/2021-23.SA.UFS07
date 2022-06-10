@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.5.1...ds1.5.2) (2022-06-10)
+
+
+### Bug Fixes
+
+* update paragraph molecule ([e80bba8](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/e80bba809a269d08dff41f79ffd28c0d29f5c333))
+
 ### [1.5.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.5.0...ds1.5.1) (2022-06-10)
 
 
