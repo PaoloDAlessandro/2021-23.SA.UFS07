@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.6.3...ds1.6.4) (2022-06-10)
+
 ### [1.6.3](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.6.2...ds1.6.3) (2022-06-10)
 
 ### [1.6.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.6.1...ds1.6.2) (2022-06-10)
