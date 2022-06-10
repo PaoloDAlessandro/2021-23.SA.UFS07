@@ -1,11 +1,10 @@
 import React from "react";
-import {Button} from "test-1-dalex/atoms/button/Button"
-import { Text } from "test-1-dalex/atoms/text/Text";
+import {Text} from "test-1-dalex/atoms/text/Text";
+import { Title } from "../../design-system/react/src/molecules/title/Title";
 
 const App = () => ( 
     <div>
-        <Button label={"gasssss"} />
-        <Text text={"ciao"}/>
+        <Title text={"My pantry"} />
     </div>
 );
 
