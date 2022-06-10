@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 /**
  * Primary UI component for user interaction
  */
-export const Input = ({ placeholder, onData, isValid, type }) => {
+export const Input = ({ id, placeholder, onData, isValid, type, label }) => {
 
     function onInput(InputEvent) {
         {
@@ -16,35 +16,37 @@ export const Input = ({ placeholder, onData, isValid, type }) => {
         }
     }
 
+    const message = isValid ? "Corretto" : "Sbagliato";
 
   return (
-    <input
-      placeholder={placeholder}
-      onInput={onInput}
-      isValid={isValid}
-      type={type}
-    >
-    </input>
+   <>
+      <input
+        id={id}
+        placeholder={placeholder}
+        onInput={onInput}
+        type={type}
+        >
+      </input>
+      {label === undefined ? null : <label htmlFor = {id}>{label}</label>}
+      {isValid === undefined ? null : message}
+    </>
+
   );
 };
 
 Input.propTypes = {
-  /**
-   * Button contents
-   */
-  placeholder: PropTypes.string.isRequired,
-  /**
-   * Optional click handler
-   */
+  id: PropTypes.string.isRequired,
+  placeholder: PropTypes.string,
   onData: PropTypes.func,
-
   isValid: PropTypes.bool,
-
   type: PropTypes.string,
+  label: PropTypes.string,
 };
 
 Input.defaultProps = {
-  type: "text",
+  placeholder: undefined,
   onData: undefined,
-  isValid: true,
+  type: "text",
+  isValid: undefined,
+  label: undefined
 };

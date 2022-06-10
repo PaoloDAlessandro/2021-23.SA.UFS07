@@ -15,12 +15,23 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template = (args) => <Input {...args} />;
 
-export const Primary = Template.bind({});
+export const InputText = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Primary.args = {
+InputText.args = {
     placeholder:"Name",
     onInput:undefined,
     isValid:undefined,
     type:"text",
+};
+
+
+export const InputRadio = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+InputRadio.args = {
+    id:"html",
+    onInput:undefined,
+    isValid:undefined,
+    type:"radio",
+    label:"a label",
 };
 

@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { Title } from '../src/molecules/title/Title';
-import { Text } from '../src/atoms/text/Text'
-import { TextBold } from '../src/atoms/textBold/TextBold'
-import { TextItalic } from '../src/atoms/textItalic/TextItalic'
+import { Text } from '../src/atoms/text/Text';
+import { TextBold } from '../src/atoms/textBold/TextBold';
+import { TextItalic } from '../src/atoms/textItalic/TextItalic';
 
 export default {
   title: 'Example/Molecules/Title',
@@ -12,11 +12,12 @@ export default {
   },
 };
 
-const Template = (args) => <Title {...args}>
-      <Text text={"My Pantry"} />
-
-  </Title>;
+const Template = (args) => <Title {...args}> 
+  <Text text='ciao'/>
+</Title>
 
 export const Primary = Template.bind({});
 Primary.args = {
+  primary: true,
+  text: 'Insert text'
 };
