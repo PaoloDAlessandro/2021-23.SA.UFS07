@@ -4,11 +4,11 @@ import Text from '../../atoms/text/Text';
 /**
  * Primary UI component for user interaction
  */
-export const Paragraph = ({}) => {
+export const Paragraph = ({children}) => {
 
   return (
     <p>
-        <Text/>
+        {children}
     </p>
   );
 };
