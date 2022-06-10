@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.7.0...v1.8.0) (2022-06-10)
+
+
+### Features
+
+* change index ([844b426](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/844b426e23f318edc2b3d94e276c747c70414721))
+* create paragraph molecule ([a9506b3](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/a9506b3cd67a1b28ac5b98782685067fe80be7d3))
+* created img and span atoms ([89852af](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/89852af515b264a46be3babe34d8060aa03e0bf5))
+* created textbold and italic atoms ([a37cbc6](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/a37cbc697157d84475e782e4617fc580147091f1))
+* input now work ([2171759](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/2171759850a46063f7bbaeb66fc56ca592be3ea8))
+
+
+### Bug Fixes
+
+* add new label on button ([b2046ba](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b2046bab2cae425129bd06a1b4e29e5000bcc621))
+* app ([618972e](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/618972e43a21ed6ac590aa5cb0dccf429a5d940b))
+* button storybook ([f88d1d1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/f88d1d18d1317bf622e15d18dd04e4bac8b9c0a5))
+* empty commit ([675faeb](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/675faeb395a3e5371e1fe2425e85a4479e8530c2))
+* empty commit ([81341c8](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/81341c85d6f3d2f83ed51757d5450a514ff0b804))
+* update nvm version ([0469f6b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/0469f6b3a48433409fca9f486678a6684ea68b39))
+* update paragraph molecule ([e80bba8](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/e80bba809a269d08dff41f79ffd28c0d29f5c333))
+
 ## [1.7.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.6.1...v1.7.0) (2022-06-06)
 
 
