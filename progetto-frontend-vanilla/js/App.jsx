@@ -4,7 +4,6 @@ import { Title } from "../../design-system/react/src/molecules/title/Title";
 
 const App = () => ( 
     <div>
-        <Title text={"My pantry"} />
     </div>
 );
 
