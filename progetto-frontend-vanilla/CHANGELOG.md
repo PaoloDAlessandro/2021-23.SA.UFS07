@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.9.0...v1.10.0) (2022-06-11)
+
+
+### Features
+
+* trying to fix react logic problems ([ff8a6c2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ff8a6c21e22398b3bf57145e313fb9d8ad38136a))
+* update npm package version ([0413504](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/0413504f9305fcb62dc2c775b26b0fa2fa4dbf72))
+
 ## [1.9.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.8.1...v1.9.0) (2022-06-11)
 
 
