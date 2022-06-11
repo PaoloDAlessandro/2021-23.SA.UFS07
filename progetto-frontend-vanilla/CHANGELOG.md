@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.10.0...v1.11.0) (2022-06-11)
+
+
+### Features
+
+* add title molecule ([78d5554](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/78d5554c2e02a6b892a1207c8b995726b615f461))
+
+
+### Bug Fixes
+
+* add title on app ([fc92104](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/fc9210429fa886e5c3a677d96a999a0c6e54304b))
+* change npm package version ([fd77be1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/fd77be1ece59e9bac9abf4dffbbe25e0799e660d))
+* removed title on app ([429fff9](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/429fff96a97ef9ce923867c4e8cdcab919381aed))
+
 ## [1.10.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.9.0...v1.10.0) (2022-06-11)
 
 
