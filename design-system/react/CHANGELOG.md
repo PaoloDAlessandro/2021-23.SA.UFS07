@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.7.0...ds1.8.0) (2022-06-11)
+
+
+### Features
+
+* add paragraph to app ([bd9463c](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/bd9463c62cff73a0f37cd5b8a44861ac6cf6af84))
+* trying to fix react logic problems ([ff8a6c2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ff8a6c21e22398b3bf57145e313fb9d8ad38136a))
+
+
+### Bug Fixes
+
+* package ([5976051](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/5976051886a3fb43d0ff0ef4617e1d80934c5aac))
+* removed the title import from app ([9ddac6e](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/9ddac6e73fa29d0780cbf9d948f7a0a8753c6daa))
+* removed title in app ([2ed9359](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/2ed9359a2d0eb5bb779b7a6badff250160d1c6a2))
+* temp remove title atom ([2b5fe5b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/2b5fe5bd17bc0dd673ea72969fb03794267496f4))
+* title atom ([c615bb0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/c615bb015b8349f8ef5b346c3abecf7cd9a8bfbf))
+* title molecule ([c9db20c](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/c9db20c0214f812ff3d07e0509bb7c77da88b841))
+
 ## [1.7.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.6.4...ds1.7.0) (2022-06-10)
 
 
