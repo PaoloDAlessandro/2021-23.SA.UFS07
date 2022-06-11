@@ -13,7 +13,7 @@ export default {
 };
 
 const Template = (args) => <Title {...args}> 
-  <Text text='ciao'/>
+  <Text text='text'/>
 </Title>
 
 export const Primary = Template.bind({});
