@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.9.0...ds1.9.1) (2022-06-11)
+
+
+### Bug Fixes
+
+* removed title on app ([429fff9](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/429fff96a97ef9ce923867c4e8cdcab919381aed))
+
 ## [1.9.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.8.0...ds1.9.0) (2022-06-11)
 
 
