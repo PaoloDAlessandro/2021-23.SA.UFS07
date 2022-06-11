@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.8.0...ds1.9.0) (2022-06-11)
+
+
+### Features
+
+* add title molecule ([78d5554](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/78d5554c2e02a6b892a1207c8b995726b615f461))
+* update npm package version ([0413504](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/0413504f9305fcb62dc2c775b26b0fa2fa4dbf72))
+
 ## [1.8.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.7.0...ds1.8.0) (2022-06-11)
 
 
