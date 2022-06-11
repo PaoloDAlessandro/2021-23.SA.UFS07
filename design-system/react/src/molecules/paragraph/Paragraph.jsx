@@ -10,4 +10,8 @@ export const Paragraph = ({children}) => {
         {children}
     </p>
   );
+
 };
+
+Paragraph.PropTypes = {
+}
