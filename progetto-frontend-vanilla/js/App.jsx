@@ -42,10 +42,10 @@ const App = () => (
             
             <Footer_menu children={
               <>
-                <Image src = {ImageHome}></Image>
-                <Image src = {ImagePantry}></Image>
-                <Image src = {ImageRecipes}></Image>
-                <Image src = {ImageAccount}></Image>
+                <Image src = {ImageHome} id="home"></Image>
+                <Image src = {ImagePantry} id="pantry" status="active"></Image>
+                <Image src = {ImageRecipes} id="recipes"></Image>
+                <Image src = {ImageAccount} id="account"></Image>
               </>
           }></Footer_menu>
           
