@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.11.0...v1.12.0) (2022-06-12)
+
+
+### Features
+
+* add fonts for app ([ca6fc4a](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ca6fc4aec32f586ac13205b0d78eeed7bb512ff0))
+* add fonts for design system ([75b260a](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/75b260ae76956a9c7f79f31862ae73adf430235b))
+* add icon_container molecule ([d20f439](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d20f439cab9b99de69f4efbb1c8b307612874138))
+* create empty_div atom ([7c2dec0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/7c2dec00078e2e5a9017b26883952cb50c6e8e8d))
+* create pantry page on app ([f06fe30](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/f06fe30807799cb475f64dbfd68e5937bc417c5b))
+* create title molecule ([fb1d19a](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/fb1d19a2b9c7fa6a9add267f2d177734a4e7f6d3))
+* created footer organism ([609901a](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/609901a556d0911a85b8608033dc4a384b1392d4))
+* created footer_menu molecule ([500f3f0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/500f3f0cc15ad12565d2726123bfeb6a8ddc68a4))
+* created header organism ([50c095b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/50c095b55fdcf593f3b01e01e9c296626f5bdd53))
+* created header_child molecule ([b75bfd6](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b75bfd6f26261f82be6073cea5b9d803e672b1b9))
+* created img atom ([2b445df](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/2b445dfe52363ded6afa2bd17d92cbe973eb5370))
+* created pantry page ([b754d97](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b754d97c39f79392d8026c5f8989295455045e31))
+* delete useless header ([03567bb](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/03567bbf7e31d67a39305d726459b96380e90201))
+* upload icons ([953c4e0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/953c4e071fb639df54a783631909302702bb4e03))
+* upload icons for app ([a803854](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/a8038543ad0639f280a7ef64045b34f1a1f22e7c))
+
+
+### Bug Fixes
+
+* delete useless header ([7dbff93](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/7dbff935fef9f313c76d36fb64e1d736894bb449))
+* updated package version ([9da948b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/9da948b0bcc6a6b79d42eb64a44038b55f1c1290))
+
 ## [1.11.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.10.0...v1.11.0) (2022-06-11)
 
 
