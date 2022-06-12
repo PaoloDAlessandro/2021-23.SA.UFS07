@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.12.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.12.0...v1.12.1) (2022-06-12)
+
+
+### Bug Fixes
+
+* resolve img address missed ([b6ecf29](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b6ecf29d51cd5e933e2818dc4c129c7770b8b48f))
+
 ## [1.12.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.11.0...v1.12.0) (2022-06-12)
 
 
