@@ -1,5 +1,7 @@
 import "../css/index.css"
 import "../img/sun.png"
+import "../img/back.svg"
+import "../fonts/stylesheet.css"
 import "../CHANGELOG.md"
 import React from "react";
 import ReactDOM from "react-dom/client";

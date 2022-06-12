@@ -8,7 +8,8 @@ module.exports = {
             'js/**/*.jsx',
             'index.html',
             'css/**/.css',
-            'img/**/*.png'
+            'img/**/*.png',
+            'fonts/**'
         ],
         compress: true,
         port: 9000,
