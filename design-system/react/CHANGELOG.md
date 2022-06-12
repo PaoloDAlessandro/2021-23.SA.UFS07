@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.9.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.9.1...ds1.9.2) (2022-06-12)
+
+
+### Bug Fixes
+
+* add title on app ([fc92104](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/fc9210429fa886e5c3a677d96a999a0c6e54304b))
+* change npm package version ([fd77be1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/fd77be1ece59e9bac9abf4dffbbe25e0799e660d))
+
 ### [1.9.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.9.0...ds1.9.1) (2022-06-11)
 
 
