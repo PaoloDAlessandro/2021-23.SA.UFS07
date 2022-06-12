@@ -1,0 +1,9 @@
+.header_child {
+    width: 33.33%;
+}
+
+@media screen and (max-width: 1000px) {
+    .header_child {
+        width: 21.33%;
+    }
+}
