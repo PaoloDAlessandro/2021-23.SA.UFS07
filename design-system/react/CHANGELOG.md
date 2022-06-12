@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.11.0...ds1.12.0) (2022-06-12)
+
+
+### Features
+
+* create pantry page on app ([f06fe30](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/f06fe30807799cb475f64dbfd68e5937bc417c5b))
+
+
+### Bug Fixes
+
+* resolve img address missed ([b6ecf29](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b6ecf29d51cd5e933e2818dc4c129c7770b8b48f))
+* responsive design problems ([d568e05](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d568e051baa0bc41bf3b7ba38868217e5a84cc5c))
+
 ## [1.11.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.10.0...ds1.11.0) (2022-06-12)
 
 
