@@ -1,0 +1,14 @@
+h1 {
+    color:#080C2F;
+    opacity: .75;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: calc(18px + 1vw);
+        width: 46.66% !important;
+    }
+}
