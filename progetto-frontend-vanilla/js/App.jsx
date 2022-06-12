@@ -1,5 +1,4 @@
 import React from "react";
-import { Pantry } from 'test-1-dalex/umd/pages/pantry/Pantry';
 import { Header } from 'test-1-dalex/umd/organisms/header/Header';
 import { Title } from 'test-1-dalex/umd/molecules/title/Title';
 import { Text } from 'test-1-dalex/umd/atoms/text/Text'; 
@@ -9,11 +8,11 @@ import { Empty_div } from 'test-1-dalex/umd/atoms/empty_div/Empty_div';
 import { Header_child } from 'test-1-dalex/umd/molecules/header_child/Header_child';
 import { Footer_menu } from 'test-1-dalex/umd/molecules/footer_menu/Footer_menu';
 import { Footer } from 'test-1-dalex/umd/organisms/footer/Footer';
-import ImageFile  from "test-1-dalex/umd/images/back.svg";
-import ImageHome from 'test-1-dalex/umd/images/home.svg';
-import ImagePantry from 'test-1-dalex/umd/images/pantry.svg';
-import ImageRecipes from 'test-1-dalex/umd/images/recipes.svg';
-import ImageAccount from 'test-1-dalex/umd/images/account.svg';
+import ImageFile  from "../img/back.svg";
+import ImageHome from '../img/home.svg';
+import ImagePantry from '../img/pantry.svg';
+import ImageRecipes from '../img/recipes.svg';
+import ImageAccount from '../img/account.svg';
 
 const App = () => ( 
     <div>
