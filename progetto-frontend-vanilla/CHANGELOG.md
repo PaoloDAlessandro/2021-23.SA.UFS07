@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.13.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.12.1...v1.13.0) (2022-06-12)
+
+
+### Features
+
+* update app after fix on design system ([4254222](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/4254222992ac76f35d3b96b82d0a68fd2e04e550))
+
+
+### Bug Fixes
+
+* header and footer margins ([c233455](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/c233455c25ab8106c6b9c46eaf30f8d43707bacc))
+* responsive design problems ([d568e05](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d568e051baa0bc41bf3b7ba38868217e5a84cc5c))
+
 ### [1.12.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.12.0...v1.12.1) (2022-06-12)
 
 
