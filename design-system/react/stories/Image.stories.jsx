@@ -1,6 +1,11 @@
 import React from 'react';
 
 import { Image } from '../src/atoms/image/Image';
+import ImageHome from '../src/images/home.svg';
+import ImagePantry from '../src/images/pantry.svg';
+import ImageRecipes from '../src/images/recipes.svg';
+import ImageAccount from '../src/images/account.svg';
+import ImageBack from '../src/images/back.svg';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -15,9 +20,32 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template = (args) => <Image {...args} />;
 
-export const Primary = Template.bind({});
+export const Home = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Primary.args = {
-    src: '../src/images/norway.jpg',
+Home.args = {
+    src: ImageHome,
 };
 
+export const Pantry = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Pantry.args = {
+    src: ImagePantry,
+};
+
+export const Recipes = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Recipes.args = {
+    src: ImageRecipes,
+};
+
+export const Account = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Account.args = {
+    src: ImageAccount,
+};
+
+export const Back = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Back.args = {
+    src: ImageBack,
+};
