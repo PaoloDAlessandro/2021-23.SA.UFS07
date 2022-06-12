@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.9.2...ds1.10.0) (2022-06-12)
+
+
+### Features
+
+* add icon_container molecule ([d20f439](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d20f439cab9b99de69f4efbb1c8b307612874138))
+
 ### [1.9.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.9.1...ds1.9.2) (2022-06-12)
 
 
