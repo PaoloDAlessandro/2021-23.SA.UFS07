@@ -5,7 +5,7 @@ import "./image.css";
 /**
  * Primary UI component for user interaction
  */
-export const Image = ({ src, status }) => {
+export const Image = ({ src, status, id }) => {
     
   let active = "default";
 
@@ -16,7 +16,7 @@ export const Image = ({ src, status }) => {
 
   return (
     <img
-      src={src} id={active}
+      src={src} class={active} id={id}
     >
     </img>
   );
@@ -29,6 +29,8 @@ Image.propTypes = {
   src: PropTypes.string.isRequired,
 
   status: PropTypes.bool,
+
+  id: PropTypes.string,
   /**
    * Optional click handler
    */
