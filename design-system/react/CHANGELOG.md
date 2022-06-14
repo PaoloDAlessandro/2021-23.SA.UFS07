@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.14.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.13.1...ds1.14.0) (2022-06-14)
+
+
+### Features
+
+* created card organism ([701722f](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/701722fce9ebaea300d2aca268c230f82edcd221))
+
 ### [1.13.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.13.0...ds1.13.1) (2022-06-14)
 
 
