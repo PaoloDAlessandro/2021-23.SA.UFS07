@@ -16,7 +16,7 @@ export const Image = ({ src, status, id }) => {
 
   return (
     <img
-      src={src} class={active} id={id}
+      src={src} className={active} id={id}
     >
     </img>
   );
