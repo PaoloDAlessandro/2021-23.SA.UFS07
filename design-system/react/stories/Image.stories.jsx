@@ -6,6 +6,9 @@ import ImagePantry from '../src/images/pantry.svg';
 import ImageRecipes from '../src/images/recipes.svg';
 import ImageAccount from '../src/images/account.svg';
 import ImageBack from '../src/images/back.svg';
+import ImageTimer from '../src/images/timer.svg';
+import ImagePeso from '../src/images/peso.svg';
+import ImageQuantità from '../src/images/quantità.svg';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -48,4 +51,25 @@ export const Back = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Back.args = {
     src: ImageBack,
+};
+
+export const Timer = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Timer.args = {
+    src: ImageTimer,
+    id: "timer",
+};
+
+export const Quantità = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Quantità.args = {
+    src: ImageQuantità,
+    id: "quantità",
+};
+
+export const Peso = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Peso.args = {
+    src: ImagePeso,
+    id: "peso",
 };
