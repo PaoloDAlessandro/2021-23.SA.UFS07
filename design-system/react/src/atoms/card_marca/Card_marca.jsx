@@ -5,13 +5,17 @@ import './card_marca.css';
 /**
  * Primary UI component for user interaction
  */
-export const Card_marca = ({ text }) => {
+export const Card_marca = ({ text, class_style }) => {
   return (
-    <h5 className='marca'>
+    <h5 className={class_style}>
       {text}
     </h5>
   );
 };
+
+Card_data.propTypes = {
+  class_style: PropTypes.string.isRequired,
+}
 
 
 
