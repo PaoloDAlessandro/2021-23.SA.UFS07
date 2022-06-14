@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.14.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.14.1...ds1.14.2) (2022-06-14)
+
+
+### Bug Fixes
+
+* image classname ([ea28bb4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ea28bb4f9378f25cd7dc442718c9370a1a33157b))
+
 ### [1.14.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.14.0...ds1.14.1) (2022-06-14)
 
 
