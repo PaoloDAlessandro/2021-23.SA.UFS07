@@ -13,7 +13,7 @@ export const Card_marca = ({ text, class_style }) => {
   );
 };
 
-Card_data.propTypes = {
+Card_marca.propTypes = {
   class_style: PropTypes.string.isRequired,
 }
 
