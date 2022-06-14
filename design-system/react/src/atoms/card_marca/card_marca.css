@@ -1,4 +1,11 @@
 .marca {
     color: rgba(8, 12, 47, .65);
     font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.card_text {
+    margin: 0;
+    height: min-content;
 }

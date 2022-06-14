@@ -7,7 +7,7 @@ import "./Card_image_container.css"
 export const Card_image_container = ({back_color, image, children}) => {
 
   return (
-    <div className='c41ard_image_container' style={{backgroundColor:back_color}}>
+    <div className='card_image_container' style={{backgroundColor:back_color}}>
         {children}
     </div>
   );
