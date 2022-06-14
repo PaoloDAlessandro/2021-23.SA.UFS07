@@ -1,0 +1,4 @@
+.card_infos {
+    display: flex;
+    justify-content: space-evenly;
+}
