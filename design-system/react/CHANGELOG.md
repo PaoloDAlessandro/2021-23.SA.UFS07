@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.13.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.12.1...ds1.13.0) (2022-06-14)
+
+
+### Features
+
+* create card_image atom ([d099199](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d09919968e15e6944703df9acd611f4e9601997f))
+* created card data organism ([0041336](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/0041336d33025220f85648e03582db5dea14eb8d))
+* created card image container molecule ([d8434e7](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d8434e713b102fcb3358a287011946c7d4c66614))
+* created card infos organism ([b53bc1b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b53bc1b5338f567352f51da8d9e45c836a8e9e6f))
+* created card marca atom ([1bb5f43](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/1bb5f437b721f2d7f9512dad7ffc0d6000ef3953))
+* created card single info molecule ([1a6ab04](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/1a6ab0422eb9f1eb71e532b523d8f1f9bf2a06a9))
+* created card title atom ([d490c2f](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d490c2faee50a77e6c6bf254b9749a28077f12be))
+* update app after fix on design system ([4254222](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/4254222992ac76f35d3b96b82d0a68fd2e04e550))
+* upload images ([b4bf9f7](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b4bf9f792a5836168083e1f2056e864bf658929d))
+
 ### [1.12.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.12.0...ds1.12.1) (2022-06-12)
 
 
