@@ -15,6 +15,7 @@ import { Card_marca } from 'test-1-dalex/umd/atoms/card_marca/Card_marca';
 import { Card_title } from 'test-1-dalex/umd/atoms/card_title/Card_title';
 import { Card_image_container } from "test-1-dalex/umd/molecules/card_image_container/Card_image_container";
 import { Card_image } from "test-1-dalex/umd/atoms/card_image/Card_image";
+import { Card } from "test-1-dalex/umd/organisms/card/Card";
 import ImagePeso from '../img/peso.svg';
 import ImageTimer from '../img/timer.svg';
 import ImageQuantità from '../img/quantità.svg';
@@ -28,7 +29,7 @@ import ImageCremaCarciofi from '../img/cremaCarciofi.png';
 
 const App = () => ( 
     <div>
-<>
+    <>
     <Header children={
 
       <>
@@ -50,6 +51,7 @@ const App = () => (
           }></Header> 
 
 
+          <Card>
 
           <>
           <Card_image_container back_color={"#418C43"}>
@@ -58,43 +60,40 @@ const App = () => (
 
 
           <Card_data>
-
+          <>
           <Card_title text={"Crema carciofi"}></Card_title>
-          <Card_marca text={"Knorr"}></Card_marca>
+          <Card_marca text={"Knorr"} class_style={"marca"}></Card_marca>
 
           <Card_infos>
 
           <>
               <Card_single_info> 
                   <Image src= {ImagePeso} id={"peso"} />
-                  <Card_marca text={"250 g"}></Card_marca>
+                  <Card_marca text={"250 g"} class_style={"card_text"}></Card_marca>
               </Card_single_info>
           </>
 
           <>
           <Card_single_info> 
               <Image src= {ImageQuantità} id={"quantità"} />
-              <Card_marca text={"2"}></Card_marca>
+              <Card_marca text={"2"} class_style={"card_text"}></Card_marca>
           </Card_single_info>
           </>
           <>
           <Card_single_info> 
               <Image src= {ImageTimer} id={"timer"} />
-              <Card_marca text={"25 min."}></Card_marca>
+              <Card_marca text={"25 min."} class_style={"card_text"}></Card_marca>
           </Card_single_info>
           </>
           </Card_infos>
+          </>
           </Card_data>
           </>
-
-
-
-
-
+          </Card>
 
 
           <Footer children={
-
+            
             
             <Footer_menu children={
               <>
