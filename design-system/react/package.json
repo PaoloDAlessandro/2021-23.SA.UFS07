@@ -1,6 +1,6 @@
 {
   "name": "test-1-dalex",
-  "version": "1.15.3",
+  "version": "1.15.4",
   "description": "",
   "files": [
     "atoms/**",
