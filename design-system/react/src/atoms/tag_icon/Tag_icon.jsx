@@ -7,7 +7,7 @@ import "./tag_icon.css"
 export const Tag_icon = ({children}) => {
 
   return (
-    <div className='tag-icon'>
+    <div className='tag_icon'>
         {children}
     </div>
   );
@@ -15,5 +15,5 @@ export const Tag_icon = ({children}) => {
 };
 
 Tag_icon.propTypes = {
-    
+
 }

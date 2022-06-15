@@ -1,5 +1,7 @@
 .tag_title {
     font-size: 34px;
     color: white;
-    
+    margin: 0;
+    font-weight: 500;
+    margin-left: 14px;
 }

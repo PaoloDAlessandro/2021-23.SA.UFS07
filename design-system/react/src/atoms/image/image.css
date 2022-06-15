@@ -35,3 +35,9 @@
 #quantità {
     width: 36px;
 }
+
+#gluten_free {
+    height: 80px;
+    opacity: 1 !important;
+    filter: none !important;
+}

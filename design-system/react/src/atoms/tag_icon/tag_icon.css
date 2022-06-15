@@ -1,4 +1,8 @@
 .tag_icon {
+    width: fit-content;
     border-radius: 50%;
-    height: 80px;
+    background-color: white;
+    aspect-ratio: 1;
+    width: 45px;
+    margin-left: 20px;
 }
