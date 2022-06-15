@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.16.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.15.0...v1.16.0) (2022-06-15)
+
+
+### Features
+
+* created card combo organism ([78d0a05](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/78d0a05f8ed93c2221ffb15fb0dbf8236110f182))
+
+
+### Bug Fixes
+
+* card style ([21fa393](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/21fa3931edcdaa0c956bc44bef7ed97bc0354d3d))
+* change card combo style ([2c1b331](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/2c1b331eec39423b28969cfb100053ed907826d3))
+* changes style ([320a792](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/320a7923d547b1162abf211845c128572612a815))
+* update app ([f1d870e](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/f1d870e6de180ca81c52cc99b6e52efc8a5f70ab))
+
 ## [1.15.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.14.0...v1.15.0) (2022-06-15)
 
 
