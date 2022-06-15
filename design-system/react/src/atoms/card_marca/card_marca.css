@@ -4,6 +4,7 @@
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 36px;
+    width: max-content;
 }
 
 .card_text {

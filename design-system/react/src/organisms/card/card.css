@@ -10,3 +10,7 @@
     margin-bottom: 3vh;
     border: 1px solid rgb(139 124 124 / 27%);
 }
+
+.card:last-of-type {
+    margin-bottom: 120px;
+}
