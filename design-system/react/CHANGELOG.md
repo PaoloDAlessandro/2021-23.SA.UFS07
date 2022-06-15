@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.17.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.17.0...ds1.17.1) (2022-06-15)
+
+
+### Bug Fixes
+
+* card style ([21fa393](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/21fa3931edcdaa0c956bc44bef7ed97bc0354d3d))
+
 ## [1.17.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.16.0...ds1.17.0) (2022-06-15)
 
 
