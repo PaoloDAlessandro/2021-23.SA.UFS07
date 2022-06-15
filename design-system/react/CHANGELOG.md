@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.15.3](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.15.2...ds1.15.3) (2022-06-15)
+
+
+### Bug Fixes
+
+* change marca style ([5a51ca4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/5a51ca4027c1f9e4a9833f64767939895d328a80))
+
 ### [1.15.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.15.1...ds1.15.2) (2022-06-15)
 
 
