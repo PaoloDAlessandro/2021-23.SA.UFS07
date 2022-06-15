@@ -2,6 +2,40 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.14.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.13.0...v1.14.0) (2022-06-15)
+
+
+### Features
+
+* create card_image atom ([d099199](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d09919968e15e6944703df9acd611f4e9601997f))
+* created card data organism ([0041336](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/0041336d33025220f85648e03582db5dea14eb8d))
+* created card image container molecule ([d8434e7](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d8434e713b102fcb3358a287011946c7d4c66614))
+* created card infos organism ([b53bc1b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b53bc1b5338f567352f51da8d9e45c836a8e9e6f))
+* created card marca atom ([1bb5f43](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/1bb5f437b721f2d7f9512dad7ffc0d6000ef3953))
+* created card organism ([701722f](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/701722fce9ebaea300d2aca268c230f82edcd221))
+* created card single info molecule ([1a6ab04](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/1a6ab0422eb9f1eb71e532b523d8f1f9bf2a06a9))
+* created card title atom ([d490c2f](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d490c2faee50a77e6c6bf254b9749a28077f12be))
+* created cards container ([6b5daf4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/6b5daf4f58f42e1b4c6630878514e5260ffd934a))
+* created tag organism ([5a9d9c6](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/5a9d9c66e7fdd92468245def9cdbc21cfad5f695))
+* created tag_icon atom ([4d15358](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/4d153584fb0199e77cdf2d11fcb63cafcc255cd7))
+* created tag_title atom ([9672302](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/9672302a978ccb84d61845050a735da2ba9011ef))
+* upload images ([b4bf9f7](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b4bf9f792a5836168083e1f2056e864bf658929d))
+
+
+### Bug Fixes
+
+* add margin bottom on marca ([1800e82](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/1800e82c0f63275b54fee1210dfdf997f3bc4abe))
+* add margin top on card ([5ba750b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/5ba750b1280bd966fa7ee239770bd67ff3e7e60f))
+* all style bugs ([b1312d1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b1312d156c2b1dd68e70a034736e804e2a062126))
+* bug on card marca proptypes ([3049d4d](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/3049d4d80c55d7e3dd03249e56e301d0b044a6a7))
+* card & image style ([2d3dbbd](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/2d3dbbd001bf654d330dee31e8eb8275c756cf3e))
+* card style ([ac1def7](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ac1def7b8e3a5b5289ee1fe2d17f601f6d284c9f))
+* change marca style ([5a51ca4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/5a51ca4027c1f9e4a9833f64767939895d328a80))
+* css card style ([4ee3d39](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/4ee3d3972328951179dbc106f48bd4008b6d896b))
+* image classname ([ea28bb4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ea28bb4f9378f25cd7dc442718c9370a1a33157b))
+* marca & image style ([06910d1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/06910d1a0858678e5c9464dda42b11fe6a5b740d))
+* resolved css bugs ([6eba143](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/6eba143d1e6c6b7dcc12acb29ab28c0388c732ce))
+
 ## [1.13.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.12.1...v1.13.0) (2022-06-12)
 
 
