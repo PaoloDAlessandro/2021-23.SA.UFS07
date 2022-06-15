@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.17.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.16.0...ds1.17.0) (2022-06-15)
+
+
+### Features
+
+* add changes on surge ([0d12afa](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/0d12afac574b76aa4cc30929ee19dbfb1bdfe573))
+
+
+### Bug Fixes
+
+* changes style ([320a792](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/320a7923d547b1162abf211845c128572612a815))
+
 ## [1.16.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.15.4...ds1.16.0) (2022-06-15)
 
 
