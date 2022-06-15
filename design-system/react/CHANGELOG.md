@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.15.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.14.6...ds1.15.0) (2022-06-15)
+
+
+### Features
+
+* created cards container ([6b5daf4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/6b5daf4f58f42e1b4c6630878514e5260ffd934a))
+
+
+### Bug Fixes
+
+* add margin bottom on marca ([1800e82](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/1800e82c0f63275b54fee1210dfdf997f3bc4abe))
+* add margin top on card ([5ba750b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/5ba750b1280bd966fa7ee239770bd67ff3e7e60f))
+
 ### [1.14.6](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.14.5...ds1.14.6) (2022-06-14)
 
 
