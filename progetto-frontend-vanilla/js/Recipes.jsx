@@ -33,7 +33,6 @@ import ImageUova from '../img/uova.png';
 import ImageMozzarella from '../img/mozzarella.png';
 
 
-
 const App = () => ( 
     <div>
     <>
