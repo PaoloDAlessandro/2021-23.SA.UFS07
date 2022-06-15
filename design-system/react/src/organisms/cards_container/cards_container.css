@@ -1,0 +1,5 @@
+.cards_container {
+    overflow-y: auto;
+    height: 80vh;
+    margin-top: 3vh;
+}
