@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.16.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.15.4...ds1.16.0) (2022-06-15)
+
+
+### Features
+
+* created tag organism ([5a9d9c6](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/5a9d9c66e7fdd92468245def9cdbc21cfad5f695))
+* created tag_icon atom ([4d15358](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/4d153584fb0199e77cdf2d11fcb63cafcc255cd7))
+* created tag_title atom ([9672302](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/9672302a978ccb84d61845050a735da2ba9011ef))
+
+
+### Bug Fixes
+
+* marca & image style ([06910d1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/06910d1a0858678e5c9464dda42b11fe6a5b740d))
+
 ### [1.15.4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.15.3...ds1.15.4) (2022-06-15)
 
 
