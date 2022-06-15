@@ -17,6 +17,10 @@ import { Card_image_container } from "test-1-dalex/umd/molecules/card_image_cont
 import { Card_image } from "test-1-dalex/umd/atoms/card_image/Card_image";
 import { Card } from "test-1-dalex/umd/organisms/card/Card";
 import { Cards_container } from "test-1-dalex/umd/organisms/cards_container/Cards_container";
+import { Tag_icon } from "test-1-dalex/umd/atoms/tag_icon/Tag_icon";
+import { Tag_title } from "test-1-dalex/umd/atoms/tag_title/Tag_title";
+import { Tag } from "test-1-dalex/umd/organisms/tag/Tag";
+import { Card_combo } from "test-1-dalex/umd/organisms/card_combo/Card_combo";
 import ImagePeso from '../img/peso.svg';
 import ImageTimer from '../img/timer.svg';
 import ImageQuantità from '../img/quantità.svg';
@@ -31,8 +35,9 @@ import ImageLeerdammer from '../img/leerdammer.png';
 import ImageRosette from '../img/rosette.png';
 import ImageUova from '../img/uova.png';
 import ImageMozzarella from '../img/mozzarella.png';
-
-
+import ImageGlutenFree from '../img/glutenFree.svg';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const App = () => ( 
     <div>
@@ -70,7 +75,7 @@ const App = () => (
           <Card_data>
           <>
           <Card_title text={"Crema carciofi"}></Card_title>
-          <Card_marca text={"Knorr"} class_style={"marca"}></Card_marca>
+
 
           <Card_infos>
 
@@ -189,7 +194,15 @@ const App = () => (
           <Card_data>
           <>
           <Card_title text={"Rosette"}></Card_title>
-          <Card_marca text={"Schär"} class_style={"marca"}></Card_marca>
+          <Card_combo>
+            <Card_marca text={"Schär"} class_style={"marca"}></Card_marca>
+            <Tag back_color={"#8E5A28"} children={
+            <>
+            <Tag_icon><Image src={ImageGlutenFree} id={"gluten_free"}></Image></Tag_icon>
+            <Tag_title text={"Gluten free"}></Tag_title>
+            </>
+          }></Tag>
+          </Card_combo>
 
           <Card_infos>
 
@@ -249,7 +262,7 @@ const App = () => (
             <>
             <Card_single_info> 
                 <Image src= {ImageTimer} id={"timer"} />
-                <Card_marca text={"Pronte."} class_style={"card_text"}></Card_marca>
+                <Card_marca text={"Pronta"} class_style={"card_text"}></Card_marca>
             </Card_single_info>
             </>
             </Card_infos>
