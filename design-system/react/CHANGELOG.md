@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.19.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.18.5...ds1.19.0) (2022-06-16)
+
+
+### Features
+
+* created search box ([63a23e9](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/63a23e9faaae4028a519cbc720ac4e5ed73afdf8))
+
+
+### Bug Fixes
+
+* input style ([a3595f3](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/a3595f35f5209fb10b866fc58c148efcfb37e93c))
+
 ### [1.18.5](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.18.4...ds1.18.5) (2022-06-16)
 
 
