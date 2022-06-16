@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.22.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.21.0...ds1.22.0) (2022-06-16)
+
+
+### Features
+
+* created summary components ([ae46a57](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ae46a57bb9d03448d194d69937f52a67c832709e))
+
 ## [1.21.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.20.1...ds1.21.0) (2022-06-16)
 
 
