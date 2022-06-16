@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.17.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.17.1...v1.17.2) (2022-06-16)
+
 ### [1.17.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.17.0...v1.17.1) (2022-06-16)
 
 
