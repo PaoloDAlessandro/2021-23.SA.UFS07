@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.18.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.17.2...v1.18.0) (2022-06-16)
+
+
+### Features
+
+* created card_account organism ([fcab8b2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/fcab8b22483dfa42e6e9bef51244c28e780d8be8))
+* upload all account images ([673e537](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/673e537bbde147f1b5c96c87bd172c3edce10815))
+
+
+### Bug Fixes
+
+* card image style ([7e4a42a](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/7e4a42ac437713c0f2915ac8ce27cf9e89945a57))
+* image and card account style ([22d8373](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/22d8373166f9760b9ee0a3dcea25102b5fcd4d3e))
+* update package v ([fca8e4e](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/fca8e4e08ebf02f5c2c90621b41865e1b690722d))
+* updated app ([36d9be2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/36d9be2b0b075cef39fb8fab9c8803940f9eb333))
+* vegan css ([8b95779](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/8b95779ed0c99264d6a13b2c20a6a548be1368fb))
+
 ### [1.17.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.17.1...v1.17.2) (2022-06-16)
 
 ### [1.17.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.17.0...v1.17.1) (2022-06-16)
