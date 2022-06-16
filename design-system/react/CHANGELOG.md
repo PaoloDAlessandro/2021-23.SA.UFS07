@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.21.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.20.1...ds1.21.0) (2022-06-16)
+
+
+### Features
+
+* upload all account images ([673e537](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/673e537bbde147f1b5c96c87bd172c3edce10815))
+
+
+### Bug Fixes
+
+* card account background color ([ca4fb7d](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ca4fb7dde9b4929245d1160d38d25abf518f3362))
+* update package v ([fca8e4e](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/fca8e4e08ebf02f5c2c90621b41865e1b690722d))
+* updated app ([36d9be2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/36d9be2b0b075cef39fb8fab9c8803940f9eb333))
+
 ### [1.20.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.20.0...ds1.20.1) (2022-06-16)
 
 
