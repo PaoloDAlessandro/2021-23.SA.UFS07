@@ -54,6 +54,14 @@
     width: 70px;
 }
 
+#edit {
+    height: 24px;
+    opacity: 1 !important;
+    margin-top: 6px;
+    filter: none !important;
+    margin-left: 16px;
+}
+
 #search {
     width: 60px;
 }
