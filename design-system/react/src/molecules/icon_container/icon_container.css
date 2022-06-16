@@ -19,7 +19,6 @@
 
 @media screen and (max-width: 1000px) {
     .icon_container {
-        margin-left: 0;
         width: 120px;
         height: 120px;
     }
