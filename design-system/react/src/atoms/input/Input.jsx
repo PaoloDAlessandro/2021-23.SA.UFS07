@@ -5,7 +5,7 @@ import './input.css';
 /**
  * Primary UI component for user interaction
  */
-export const Input = ({ id, placeholder, onData, isValid, type, label }) => {
+export const Input = ({ id, placeholder, onData, size, isValid, type, label }) => {
 
     function onInput(InputEvent) {
         {
@@ -26,6 +26,7 @@ export const Input = ({ id, placeholder, onData, isValid, type, label }) => {
         placeholder={placeholder}
         onInput={onInput}
         type={type}
+        style={{fontSize: size}}
         >
       </input>
       {label === undefined ? null : <label htmlFor = {id}>{label}</label>}
@@ -42,6 +43,7 @@ Input.propTypes = {
   isValid: PropTypes.bool,
   type: PropTypes.string,
   label: PropTypes.string,
+  size: PropTypes.string,
 };
 
 Input.defaultProps = {
