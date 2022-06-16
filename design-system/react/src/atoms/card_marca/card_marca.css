@@ -1,8 +1,8 @@
 .marca {
     color: rgba(8, 12, 47, .65);
     font-family: 'Poppins', sans-serif;
-    font-size: 36px;
-    margin-top: 0;
+    font-size: 32px;
+    margin-top: -6px;
     margin-bottom: 36px;
     width: max-content;
 }
@@ -12,5 +12,5 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     height: min-content;
-    font-size: 30px;
+    font-size: 26px;
 }
