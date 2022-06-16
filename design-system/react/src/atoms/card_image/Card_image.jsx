@@ -5,11 +5,11 @@ import "./card_image.css";
 /**
  * Primary UI component for user interaction
  */
-export const Card_image = ({ src, id }) => {
+export const Card_image = ({ src, id, styleClass }) => {
 
   return (
     <img
-      src={src} id={id}
+      src={src} id={id} className={styleClass}
     >
     </img>
   );
@@ -22,6 +22,8 @@ Card_image.propTypes = {
   src: PropTypes.string.isRequired,
 
   id: PropTypes.string,
+
+  styleClass: PropTypes.string,
   /**
    * Optional click handler
    */

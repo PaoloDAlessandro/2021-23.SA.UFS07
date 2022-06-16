@@ -5,3 +5,8 @@ img {
 #uova {
     width: 212px;
 }
+
+.ricetta {
+    filter: none !important;
+    width: 252px !important;
+}
