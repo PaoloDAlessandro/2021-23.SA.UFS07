@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.19.3](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.19.2...ds1.19.3) (2022-06-16)
+
+
+### Bug Fixes
+
+* change backgroundcolor on search box ([b19e635](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b19e63522b1709d83e5827698a50bf431380b273))
+* updated app ([c8c05b0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/c8c05b0eb5a3b7edbf68cad223494e50d10fb7ec))
+
 ### [1.19.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.19.1...ds1.19.2) (2022-06-16)
 
 
