@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.17.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.17.0...v1.17.1) (2022-06-16)
+
+
+### Bug Fixes
+
+* chaged package v ([29ddf0f](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/29ddf0f8e870d4fb9510725784dfad5f3fe77a1a))
+* change backgroundcolor on search box ([b19e635](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b19e63522b1709d83e5827698a50bf431380b273))
+* changed package v ([9c52fe9](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/9c52fe9cb8fad0dab0941a0b1a8ec0fe1472f30c))
+
 ## [1.17.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.16.1...v1.17.0) (2022-06-16)
 
 
