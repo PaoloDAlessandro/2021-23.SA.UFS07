@@ -21,10 +21,13 @@ import { Tag_icon } from "test-1-dalex/umd/atoms/tag_icon/Tag_icon";
 import { Tag_title } from "test-1-dalex/umd/atoms/tag_title/Tag_title";
 import { Tag } from "test-1-dalex/umd/organisms/tag/Tag";
 import { Card_combo } from "test-1-dalex/umd/organisms/card_combo/Card_combo";
+import { Input } from 'test-1-dalex/umd/atoms/input/Input';
+import { Search_box } from "test-1-dalex/umd/molecules/search_box/Search_box";
 import ImagePeso from '../img/peso.svg';
 import ImageTimer from '../img/timer.svg';
 import ImageQuantità from '../img/quantità.svg';
 import ImageFile  from "../img/back.svg";
+import ImageSettings from "../img/settings.svg";
 import ImageHome from '../img/home.svg';
 import ImagePantry from '../img/pantry.svg';
 import ImageRecipes from '../img/recipes.svg';
@@ -36,6 +39,7 @@ import ImageRosette from '../img/rosette.png';
 import ImageUova from '../img/uova.png';
 import ImageMozzarella from '../img/mozzarella.png';
 import ImageGlutenFree from '../img/glutenFree.svg';
+import ImageSearch from '../img/search.svg';
 import { Link } from "react-router-dom";
 
 const Pantry = () => ( 
@@ -74,6 +78,7 @@ const Pantry = () => (
           <Card_data>
           <>
           <Card_title text={"Crema carciofi"}></Card_title>
+          <Card_marca text={"Knorr"} class_style={"marca"}></Card_marca>
 
 
           <Card_infos>
@@ -233,7 +238,7 @@ const Pantry = () => (
           <Card>
 
             <>
-            <Card_image_container back_color={"#2A7C0D"}>
+            <Card_image_container back_color={"#83D261"}>
               <Card_image src = {ImageUova} id={"uova"}/>
             </Card_image_container>
 
@@ -273,7 +278,7 @@ const Pantry = () => (
             <Card>
 
             <>
-            <Card_image_container back_color={"#D3D5D5"}>
+            <Card_image_container back_color={"#FEFFEA"}>
               <Card_image src = {ImageMozzarella}/>
             </Card_image_container>
 
@@ -346,17 +351,29 @@ const Recipes = () => (
           
           <Image src = {ImageFile}></Image>}>
           
-          </Icon_container>}></Header_child>
+          </Icon_container>}>
+            
+          </Header_child>
           
           <Title width_size = "33.33%" children={
             
-              <Text text='My pantry'/>}/>
+              <Text text='Recipes'/>}/>
           
-          <Empty_div width_size="33.33%">
+          <Header_child children={
+        <Icon_container children={
           
-          </Empty_div>
+          <Image src = {ImageSettings} id ={"settings"}></Image>}>
+          
+          </Icon_container>}>
+            
+          </Header_child>
         </>
-        }></Header> 
+        }></Header>
+
+        <Search_box>
+          <Image src={ImageSearch} id ={"search"}></Image>
+          <Input placeholder={"Search here..."} onInput={undefined} isValid={undefined} type={"text"}></Input> 
+        </Search_box>
 
 
         <Footer children={
