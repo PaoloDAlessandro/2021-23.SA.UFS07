@@ -14,3 +14,11 @@
     height: min-content;
     font-size: 26px;
 }
+
+.summary_text {
+    color: rgba(8, 12, 47, .65);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: min-content;
+    font-size: 30px;
+}

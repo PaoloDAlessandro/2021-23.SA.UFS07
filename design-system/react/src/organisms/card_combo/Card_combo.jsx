@@ -4,11 +4,16 @@ import "./card_combo.css"
 /**
  * Primary UI component for user interaction
  */
-export const Card_combo = ({children}) => {
+export const Card_combo = ({children, id}) => {
 
   return (
-    <div className='card_combo'>
+    <div className='card_combo' id={id}>
         {children}
     </div>
   );
 };
+
+
+Card_combo.propTypes = {
+  id: PropTypes.string,
+}

@@ -5,3 +5,11 @@
     width: 80%;
     height: 44px;
 }
+
+#kcal_summary, #sale_summary, #zuccheri_summary, #proteine_summary, #fibre_summary, #grassi_summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 44px;
+}
