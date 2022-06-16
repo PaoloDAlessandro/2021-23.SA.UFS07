@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.18.5](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.18.4...ds1.18.5) (2022-06-16)
+
+
+### Bug Fixes
+
+* input style ([0410cfe](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/0410cfed350d9e353146e47f46ab112392f92acb))
+* updated app ([80ff875](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/80ff875041a85a4c512b2507ae6e3cbf9df15ff6))
+
 ### [1.18.4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.18.3...ds1.18.4) (2022-06-16)
 
 
