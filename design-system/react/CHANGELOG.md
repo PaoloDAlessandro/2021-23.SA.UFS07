@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.22.2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.22.1...ds1.22.2) (2022-06-16)
+
+
+### Bug Fixes
+
+* card on account ([eb8e4b8](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/eb8e4b868011189451ad270e06eeb9c2b7435f4f))
+
 ### [1.22.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.22.0...ds1.22.1) (2022-06-16)
 
 
