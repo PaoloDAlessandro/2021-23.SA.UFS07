@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.17.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.16.1...v1.17.0) (2022-06-16)
+
+
+### Features
+
+* created search box ([63a23e9](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/63a23e9faaae4028a519cbc720ac4e5ed73afdf8))
+
+
+### Bug Fixes
+
+* card style ([754261b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/754261be3ede85c73a90940539876671c6ae53a4))
+* input style ([a3595f3](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/a3595f35f5209fb10b866fc58c148efcfb37e93c))
+* input style ([0410cfe](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/0410cfed350d9e353146e47f46ab112392f92acb))
+* search box style ([b25faf0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/b25faf0f208e5632e890fb99ad7fb79239167bcb))
+* updated app ([c8c05b0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/c8c05b0eb5a3b7edbf68cad223494e50d10fb7ec))
+
 ### [1.16.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.16.0...v1.16.1) (2022-06-16)
 
 
