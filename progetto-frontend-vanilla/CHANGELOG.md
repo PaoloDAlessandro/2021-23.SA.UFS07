@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.19.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.18.0...v1.19.0) (2022-06-16)
+
+
+### Features
+
+* created summary components ([ae46a57](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ae46a57bb9d03448d194d69937f52a67c832709e))
+
+
+### Bug Fixes
+
+* app updated ([3a259c9](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/3a259c9a6c31dc02aaa85079f3f6a715ccf89d4e))
+* card account background color ([ca4fb7d](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/ca4fb7dde9b4929245d1160d38d25abf518f3362))
+* card on account ([eb8e4b8](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/eb8e4b868011189451ad270e06eeb9c2b7435f4f))
+* card style ([4e0739c](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/4e0739cbbb12a0a3b470a3081a93a8c471929a54))
+* summary style file name ([63058a5](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/63058a5372986b5aea4404903673474dcd5e6214))
+* tag id ([7569cce](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/7569cce8b2168109bc84ab74695c628369a07d51))
+
 ## [1.18.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.17.2...v1.18.0) (2022-06-16)
 
 
