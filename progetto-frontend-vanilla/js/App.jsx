@@ -36,10 +36,9 @@ import ImageRosette from '../img/rosette.png';
 import ImageUova from '../img/uova.png';
 import ImageMozzarella from '../img/mozzarella.png';
 import ImageGlutenFree from '../img/glutenFree.svg';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { Link } from "react-router-dom";
 
-const App = () => ( 
+const Pantry = () => ( 
     <div>
     <>
     <Header children={
@@ -320,8 +319,12 @@ const App = () => (
             <Footer_menu children={
               <>
                 <Image src = {ImageHome} id="home"></Image>
+                <Link to = '/'>
                 <Image src = {ImagePantry} id="pantry" status="active"></Image>
+                </Link>
+                <Link to= '/recipes'>
                 <Image src = {ImageRecipes} id="recipes"></Image>
+                </Link>
                 <Image src = {ImageAccount} id="account"></Image>
               </>
           }></Footer_menu>
@@ -331,4 +334,50 @@ const App = () => (
     </div>
 );
 
-export default App;
+
+const Recipes = () => ( 
+  <div>
+  <>
+  <Header children={
+
+    <>
+      <Header_child children={
+        <Icon_container children={
+          
+          <Image src = {ImageFile}></Image>}>
+          
+          </Icon_container>}></Header_child>
+          
+          <Title width_size = "33.33%" children={
+            
+              <Text text='My pantry'/>}/>
+          
+          <Empty_div width_size="33.33%">
+          
+          </Empty_div>
+        </>
+        }></Header> 
+
+
+        <Footer children={
+          
+          
+          <Footer_menu children={
+            <>
+              <Image src = {ImageHome} id="home"></Image>
+              <Link to = "/">
+              <Image src = {ImagePantry} id="pantry"></Image>
+              </Link>
+              <Link to= "/recipes">
+              <Image src = {ImageRecipes} id="recipes" status="active"></Image>
+              </Link>
+              <Image src = {ImageAccount} id="account"></Image>
+            </>
+        }></Footer_menu>
+        
+      }></Footer>
+        </>
+  </div>
+);
+
+export {Pantry, Recipes};
