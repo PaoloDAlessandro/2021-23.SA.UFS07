@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.18.4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.18.3...ds1.18.4) (2022-06-16)
+
+
+### Bug Fixes
+
+* footer bugs ([2a07e89](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/2a07e8989ea0eda82715c620d49a21f2f252897f))
+
 ### [1.18.3](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.18.2...ds1.18.3) (2022-06-16)
 
 
