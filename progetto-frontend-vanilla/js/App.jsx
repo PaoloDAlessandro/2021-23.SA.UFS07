@@ -23,6 +23,7 @@ import { Tag } from "test-1-dalex/umd/organisms/tag/Tag";
 import { Card_combo } from "test-1-dalex/umd/organisms/card_combo/Card_combo";
 import { Input } from 'test-1-dalex/umd/atoms/input/Input';
 import { Search_box } from "test-1-dalex/umd/molecules/search_box/Search_box";
+import { Card_account } from "test-1-dalex/umd/organisms/card_account/Card_account";
 import ImagePeso from '../img/peso.svg';
 import ImageTimer from '../img/timer.svg';
 import ImageQuantità from '../img/quantità.svg';
@@ -40,6 +41,21 @@ import ImageUova from '../img/uova.png';
 import ImageMozzarella from '../img/mozzarella.png';
 import ImageGlutenFree from '../img/glutenFree.svg';
 import ImageSearch from '../img/search.svg';
+import ImagePasta from '../img/pasta.png';
+import ImageuovaRicetta from '../img/uovaRicetta.png';
+import ImageinsalatRicetta from '../img/insalataRicetta.png';
+import ImagecremaCarciofiRicetta from '../img/cremaCarciofiRicetta.png';
+import ImageKcal from '../img/kcal.svg';
+import ImagePersons from '../img/persons.svg';
+import ImageVegan from '../img/vegan.svg';
+import ImagePaoloDalex from '../img/paolodalex.png';
+import ImageSale from '../img/sale.svg';
+import ImageZuccheri from '../img/zuccheri.svg';
+import ImageGrassi from '../img/grassi.svg';
+import ImageProteine from '../img/proteine.svg';
+import ImageFibre from '../img/fibre.svg';
+import ImageEdit from '../img/edit.svg';
+
 import { Link } from "react-router-dom";
 
 const Pantry = () => ( 
@@ -330,7 +346,9 @@ const Pantry = () => (
                 <Link to= '/recipes'>
                 <Image src = {ImageRecipes} id="recipes"></Image>
                 </Link>
+                <Link to= "/account">
                 <Image src = {ImageAccount} id="account"></Image>
+                </Link>
               </>
           }></Footer_menu>
           
@@ -375,6 +393,193 @@ const Recipes = () => (
           <Input placeholder={"Search here..."} onInput={undefined} isValid={undefined} type={"text"}></Input> 
         </Search_box>
 
+        <Cards_container>
+
+          <Card>
+
+          <>
+          <Card_image_container back_color={"#418C43"}>
+            <Card_image src = {ImagePasta} styleClass={"ricetta"}/>
+          </Card_image_container>
+
+
+          <Card_data>
+          <>
+          <Card_title text={"Pasta al sugo"}></Card_title>
+          <Card_marca text={"By GialloZafferano"} class_style={"marca"}></Card_marca>
+
+
+          <Card_infos>
+
+          <>
+              <Card_single_info> 
+                  <Image src= {ImageKcal} id={"quantità"} />
+                  <Card_marca text={"324 Kcal"} class_style={"card_text"}></Card_marca>
+              </Card_single_info>
+          </>
+
+          <>
+          <Card_single_info> 
+              <Image src= {ImagePersons} id={"timer"} />
+              <Card_marca text={"5"} class_style={"card_text"}></Card_marca>
+          </Card_single_info>
+          </>
+          <>
+          <Card_single_info> 
+              <Image src= {ImageTimer} id={"timer"} />
+              <Card_marca text={"16 min."} class_style={"card_text"}></Card_marca>
+          </Card_single_info>
+          </>
+          </Card_infos>
+          </>
+          </Card_data>
+          </>
+          </Card>
+
+          <Card>
+
+          <>
+          <Card_image_container back_color={"#AA3C24"}>
+            <Card_image src = {ImagecremaCarciofiRicetta} styleClass={"ricetta"}/>
+          </Card_image_container>
+
+
+          <Card_data>
+          <>
+          <Card_title text={"Crema carciofi"}></Card_title>
+          <Card_combo>
+            <Card_marca text={"By Knorr"} class_style={"marca"}></Card_marca>
+            <Tag back_color={"#418C43"} children={
+            <>
+            <Tag_icon><Image src={ImageVegan} id={"vegan"}></Image></Tag_icon>
+            <Tag_title text={"Vegan"}></Tag_title>
+            </>
+          }></Tag>
+          </Card_combo>
+
+          <Card_infos>
+
+          <>
+              <Card_single_info> 
+                  <Image src= {ImageKcal} id={"quantità"} />
+                  <Card_marca text={"154 Kcal"} class_style={"card_text"}></Card_marca>
+              </Card_single_info>
+          </>
+
+          <>
+          <Card_single_info> 
+              <Image src= {ImagePersons} id={"timer"} />
+              <Card_marca text={"3"} class_style={"card_text"}></Card_marca>
+          </Card_single_info>
+          </>
+          <>
+          <Card_single_info> 
+              <Image src= {ImageTimer} id={"timer"} />
+              <Card_marca text={"8 min."} class_style={"card_text"}></Card_marca>
+          </Card_single_info>
+          </>
+          </Card_infos>
+          </>
+          </Card_data>
+          </>
+          </Card>
+
+          <Card>
+
+          <>
+          <Card_image_container back_color={"#EFC516"}>
+            <Card_image src = {ImageuovaRicetta} styleClass={"ricetta"}/>
+          </Card_image_container>
+
+
+          <Card_data>
+          <>
+          <Card_title text={"Pane tostato con uovo"}></Card_title>
+          <Card_combo>
+            <Card_marca text={"By BurroFuso"} class_style={"marca"}></Card_marca>
+            <Tag back_color={"#8E5A28"} children={
+            <>
+            <Tag_icon><Image src={ImageGlutenFree} id={"gluten_free"}></Image></Tag_icon>
+            <Tag_title text={"Gluten free"}></Tag_title>
+            </>
+          }></Tag>
+          </Card_combo>
+          <Card_infos>
+
+          <>
+              <Card_single_info> 
+                  <Image src= {ImageKcal} id={"quantità"} />
+                  <Card_marca text={"280 Kcal"} class_style={"card_text"}></Card_marca>
+              </Card_single_info>
+          </>
+
+          <>
+          <Card_single_info> 
+              <Image src= {ImagePersons} id={"timer"} />
+              <Card_marca text={"1"} class_style={"card_text"}></Card_marca>
+          </Card_single_info>
+          </>
+          <>
+          <Card_single_info> 
+              <Image src= {ImageTimer} id={"timer"} />
+              <Card_marca text={"6 min."} class_style={"card_text"}></Card_marca>
+          </Card_single_info>
+          </>
+          </Card_infos>
+          </>
+          </Card_data>
+          </>
+          </Card>
+          <Card>
+
+          <>
+          <Card_image_container back_color={"#E8D6BB"}>
+            <Card_image src = {ImageinsalatRicetta} styleClass={"ricetta"} />
+          </Card_image_container>
+
+
+          <Card_data>
+          <>
+          <Card_title text={"Insalata mista"}></Card_title>
+          <Card_combo>
+            <Card_marca text={"By Alex"} class_style={"marca"}></Card_marca>
+            <Tag back_color={"#418C43"} children={
+            <>
+            <Tag_icon><Image src={ImageVegan} id={"vegan"}></Image></Tag_icon>
+            <Tag_title text={"Vegan"}></Tag_title>
+            </>
+          }></Tag>
+          </Card_combo>
+
+          <Card_infos>
+
+          <>
+              <Card_single_info> 
+                  <Image src= {ImageKcal} id={"quantità"} />
+                  <Card_marca text={"90 Kcal"} class_style={"card_text"}></Card_marca>
+              </Card_single_info>
+          </>
+
+          <>
+          <Card_single_info> 
+              <Image src= {ImagePersons} id={"timer"} />
+              <Card_marca text={"1"} class_style={"card_text"}></Card_marca>
+          </Card_single_info>
+          </>
+          <>
+          <Card_single_info> 
+              <Image src= {ImageTimer} id={"timer"} />
+              <Card_marca text={"3 min."} class_style={"card_text"}></Card_marca>
+          </Card_single_info>
+          </>
+          </Card_infos>
+          </>
+          </Card_data>
+          </>
+          </Card>
+
+
+            </Cards_container>
 
         <Footer children={
           
@@ -388,7 +593,9 @@ const Recipes = () => (
               <Link to= "/recipes">
               <Image src = {ImageRecipes} id="recipes" status="active"></Image>
               </Link>
+              <Link to= "/account">
               <Image src = {ImageAccount} id="account"></Image>
+              </Link>
             </>
         }></Footer_menu>
         
@@ -397,4 +604,92 @@ const Recipes = () => (
   </div>
 );
 
-export {Pantry, Recipes};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const Account = () => ( 
+  <div>
+  <>
+  <Header children={
+    <>
+      <Header_child children={
+        <Icon_container children={
+          
+          <Image src = {ImageFile}></Image>}>
+          
+          </Icon_container>}>
+            
+          </Header_child>
+          
+          <Title width_size = "33.33%" children={
+            
+              <Text text='Account'/>}/>
+          
+          <Header_child children={
+        <Icon_container children={
+          
+          <Image src = {ImageSettings} id ={"settings"}></Image>}>
+          
+          </Icon_container>}>
+            
+          </Header_child>
+        </>
+        }></Header>
+
+        
+
+        <Card_account children={
+          <>
+          <br />
+            <Card_title text={"PaoloDalex"}></Card_title>
+            <br />
+            <Card_image src={ImagePaoloDalex} styleClass={"ricetta"}></Card_image>
+            <Tag back_color={"#080C2F"} children={
+            <>
+            <Image src={ImageEdit} id={"edit"}></Image>
+            <Tag_title text={"Edit profile"}></Tag_title>
+            </>
+          }></Tag>
+          </>
+        }>
+
+        </Card_account>
+
+
+        <Footer children={
+          
+          
+          <Footer_menu children={
+            <>
+              <Image src = {ImageHome} id="home"></Image>
+              <Link to = "/">
+              <Image src = {ImagePantry} id="pantry"></Image>
+              </Link>
+              <Link to= "/recipes">
+              <Image src = {ImageRecipes} id="recipes"></Image>
+              </Link>
+              <Link to= "/account">
+              <Image src = {ImageAccount} id="account" status="active"></Image>
+              </Link>
+            </>
+        }></Footer_menu>
+        
+      }></Footer>
+        </>
+  </div>
+);
+
+
+export {Pantry, Recipes, Account};

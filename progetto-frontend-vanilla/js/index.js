@@ -5,7 +5,7 @@ import "../fonts/stylesheet.css"
 import "../CHANGELOG.md"
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {Pantry, Recipes} from "./App";
+import {Pantry, Recipes, Account} from "./App";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -25,6 +25,7 @@ reactRoot.render(
        <Switch>
 		      <Route exact path="/" component={Pantry}/>
 				<Route exact path="/recipes" component={Recipes}/>
+				<Route exact path="/account" component={Account}/>
 	    </Switch>
     </Router>,
     React.createElement(Pantry));
