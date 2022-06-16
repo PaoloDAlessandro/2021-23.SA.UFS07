@@ -10,3 +10,8 @@ img {
     filter: none !important;
     width: 252px !important;
 }
+
+#target_icon {
+    width: 40px;
+    margin-right: 14px;
+}

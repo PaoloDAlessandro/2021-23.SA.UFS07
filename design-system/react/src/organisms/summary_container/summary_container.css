@@ -6,3 +6,7 @@
     justify-content: space-between;
     margin-top: 3vh;
 }
+
+.summary_container:last-of-type {
+    margin-bottom: 3vh;
+}
