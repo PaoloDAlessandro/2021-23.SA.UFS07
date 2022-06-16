@@ -24,6 +24,8 @@ import { Card_combo } from "test-1-dalex/umd/organisms/card_combo/Card_combo";
 import { Input } from 'test-1-dalex/umd/atoms/input/Input';
 import { Search_box } from "test-1-dalex/umd/molecules/search_box/Search_box";
 import { Card_account } from "test-1-dalex/umd/organisms/card_account/Card_account";
+import { Summary_container } from "test-1-dalex/umd/organisms/summary_container/Summary_container";
+import { Summary_info } from "test-1-dalex/umd/molecules/summary_info/Summary_info";
 import ImagePeso from '../img/peso.svg';
 import ImageTimer from '../img/timer.svg';
 import ImageQuantità from '../img/quantità.svg';
@@ -55,6 +57,7 @@ import ImageGrassi from '../img/grassi.svg';
 import ImageProteine from '../img/proteine.svg';
 import ImageFibre from '../img/fibre.svg';
 import ImageEdit from '../img/edit.svg';
+import ImageTarget from '../img/target.svg';
 
 import { Link } from "react-router-dom";
 
@@ -365,8 +368,8 @@ const Recipes = () => (
 
     <>
       <Header_child children={
-        <Icon_container children={
-          
+        
+        <Icon_container children={          
           <Image src = {ImageFile}></Image>}>
           
           </Icon_container>}>
@@ -626,11 +629,8 @@ const Account = () => (
     <>
       <Header_child children={
         <Icon_container children={
-          
-          <Image src = {ImageFile}></Image>}>
-          
+          <Image src = {ImageFile}></Image>}>          
           </Icon_container>}>
-            
           </Header_child>
           
           <Title width_size = "33.33%" children={
@@ -667,6 +667,74 @@ const Account = () => (
 
         </Card_account>
 
+        <Card_title text={"Week summary"} id={"week_summary"}></Card_title>
+
+        <Summary_container>
+
+        <Summary_info>
+        <Card_combo id={"kcal_summary"}>
+          <Image src={ImageKcal} id={"quantità"}></Image>
+          <Card_marca class_style={"summary_text"} text={"512 Kcal"}></Card_marca>
+        </Card_combo>
+        </Summary_info>
+
+        
+        <Summary_info>
+        <Card_combo id={"sale_summary"}>
+          <Image src={ImageSale} id={"timer"}></Image>
+          <Card_marca class_style={"summary_text"} text={"20 g"}></Card_marca>
+        </Card_combo>
+        </Summary_info>
+        </Summary_container>
+
+        <Summary_container>
+
+        <Summary_info>
+        <Card_combo id={"proteine_summary"}>
+          <Image src={ImageProteine} id={"timer"}></Image>
+          <Card_marca class_style={"summary_text"} text={"42 g"}></Card_marca>
+        </Card_combo>
+        </Summary_info>
+
+
+        <Summary_info>
+        <Card_combo id={"zuccheri_summary"}>
+          <Image src={ImageZuccheri} id={"peso"}></Image>
+          <Card_marca class_style={"summary_text"} text={"32 g"}></Card_marca>
+        </Card_combo>
+        </Summary_info>
+        </Summary_container>
+
+        <Summary_container>
+
+        <Summary_info>
+        <Card_combo id={"fibre_summary"}>
+          <Image src={ImageFibre} id={"timer"}></Image>
+          <Card_marca class_style={"summary_text"} text={"52 g"}></Card_marca>
+        </Card_combo>
+        </Summary_info>
+
+
+        <Summary_info>
+        <Card_combo id={"grassi_summary"}>
+          <Image src={ImageGrassi} id={"timer"}></Image>
+          <Card_marca class_style={"summary_text"} text={"82 g"}></Card_marca>
+        </Card_combo>
+        </Summary_info>
+        </Summary_container>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+        <Tag back_color={"#080C2F"} id={"target"} children={
+            <>
+            <Card_image src={ImageTarget} id={"target_icon"}></Card_image>
+            <Tag_title text={"Edit targets"}></Tag_title>
+            </>
+          }></Tag>
 
         <Footer children={
           
