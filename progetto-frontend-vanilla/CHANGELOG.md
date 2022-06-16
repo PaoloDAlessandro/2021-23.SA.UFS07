@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.16.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.16.0...v1.16.1) (2022-06-16)
+
+
+### Bug Fixes
+
+* card_combo style ([51d787c](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/51d787c908e4fe33e7ce152cbd2dfc2caf997335))
+* footer bugs ([2a07e89](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/2a07e8989ea0eda82715c620d49a21f2f252897f))
+* tag style ([d46bfbc](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/d46bfbc5d7f828d3009834b78c411830ba059d6d))
+* updated app ([80ff875](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/80ff875041a85a4c512b2507ae6e3cbf9df15ff6))
+
 ## [1.16.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.15.0...v1.16.0) (2022-06-15)
 
 
