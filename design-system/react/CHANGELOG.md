@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.19.4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.19.3...ds1.19.4) (2022-06-16)
+
+
+### Bug Fixes
+
+* card image style ([7e4a42a](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/7e4a42ac437713c0f2915ac8ce27cf9e89945a57))
+* chaged package v ([29ddf0f](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/29ddf0f8e870d4fb9510725784dfad5f3fe77a1a))
+* changed package v ([9c52fe9](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/9c52fe9cb8fad0dab0941a0b1a8ec0fe1472f30c))
+
 ### [1.19.3](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.19.2...ds1.19.3) (2022-06-16)
 
 
