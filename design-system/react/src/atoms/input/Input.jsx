@@ -7,16 +7,6 @@ import './input.css';
  */
 export const Input = ({ id, placeholder, onData, size, isValid, type, label }) => {
 
-    function onInput(InputEvent) {
-        {
-            console.log("input.onInput", InputEvent);
-
-            if(typeof onData === "function") {
-                onData(InputEvent.target.value);
-            }
-        }
-    }
-
     const message = isValid ? "Corretto" : "Sbagliato";
 
   return (
@@ -24,7 +14,7 @@ export const Input = ({ id, placeholder, onData, size, isValid, type, label }) =
       <input
         id={id}
         placeholder={placeholder}
-        onInput={onInput}
+        onInput={onData}
         type={type}
         style={{fontSize: size}}
         >
