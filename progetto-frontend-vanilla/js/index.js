@@ -7,14 +7,19 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import {Pantry, Recipes, Account} from "./App";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { func } from "prop-types"
 
+const searchRecipes = document.getElementById("searchRecipes");
 
+if (searchRecipes !== null) {
 
-function onClickAlert() {
-    alert(`${new Date()}`);
+    console.log("ciao");
 }
+//searchRecipes.addEventListener("onkeypress", filterRecipes(this.value));
 
-window.onClickAlert = onClickAlert;
+function filterRecipes(input){
+    console.log(input);
+}
 
 const reactRoot = ReactDOM.createRoot(
     document.getElementById("react-root")

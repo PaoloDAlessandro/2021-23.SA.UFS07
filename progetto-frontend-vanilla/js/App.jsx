@@ -450,15 +450,30 @@ const Recipes = () => (
       <Search_box>
         <Image src={ImageSearch} id={"search"}></Image>
         <Input
+          id={"searchRecipes"}
           placeholder={"Search here..."}
-          onInput={undefined}
           isValid={undefined}
           type={"text"}
+          onData={function () {
+            const input = document.getElementById("searchRecipes");
+            console.log(input.value);
+            var cards = document.getElementsByClassName("card");
+            console.log(typeof cards);
+            for (let i = 0; i < cards.length; i++) {
+              input.value.replaceAll(" ", "_");
+              if(cards[i].id.includes(input.value.replaceAll(" ", "_").toLowerCase())) {
+                cards[i].style.display = "flex";
+              }
+              else {
+                cards[i].style.display = "none";
+              }
+            }
+          }}
         ></Input>
       </Search_box>
 
       <Cards_container>
-        <Card>
+        <Card id={"pasta_al_sugo"}>
           <>
             <Card_image_container back_color={"#418C43"}>
               <Card_image src={ImagePasta} styleClass={"ricetta"} />
@@ -507,7 +522,7 @@ const Recipes = () => (
           </>
         </Card>
 
-        <Card>
+        <Card id={"crema_carciofi"}>
           <>
             <Card_image_container back_color={"#AA3C24"}>
               <Card_image
@@ -572,7 +587,7 @@ const Recipes = () => (
           </>
         </Card>
 
-        <Card>
+        <Card id={"pane tostato con uovo"}>
           <>
             <Card_image_container back_color={"#EFC516"}>
               <Card_image src={ImageuovaRicetta} styleClass={"ricetta"} />
@@ -635,7 +650,7 @@ const Recipes = () => (
             </Card_data>
           </>
         </Card>
-        <Card>
+        <Card id={"insalata mista"}>
           <>
             <Card_image_container back_color={"#E8D6BB"}>
               <Card_image src={ImageinsalatRicetta} styleClass={"ricetta"} />
@@ -829,7 +844,6 @@ const Account = () => (
         </Summary_info>
       </Summary_container>
 
-      <br />
       <br />
       <br />
       <br />
