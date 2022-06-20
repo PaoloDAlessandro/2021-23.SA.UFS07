@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.22.5](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.22.4...ds1.22.5) (2022-06-20)
+
+
+### Bug Fixes
+
+* add id on card component ([81e8a1b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/81e8a1bef9e092d979c1b6a997559c63b401dcf3))
+* app updated ([3a259c9](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/3a259c9a6c31dc02aaa85079f3f6a715ccf89d4e))
+* code well formatted ([1262842](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/126284275899682363caec3814347f9c224d3809))
+* delete useless recipes files ([746c773](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/746c77354f26708fdc41debdaf6c45def8f1acd3))
+
 ### [1.22.4](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.22.3...ds1.22.4) (2022-06-16)
 
 
