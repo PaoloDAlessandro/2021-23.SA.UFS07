@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.20.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.19.0...v1.20.0) (2022-06-20)
+
+
+### Features
+
+* introduce recipes filter ([9b7f3f2](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/9b7f3f285fc4926b548c345906e4f54ad4a2502d))
+
+
+### Bug Fixes
+
+* add id on card component ([81e8a1b](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/81e8a1bef9e092d979c1b6a997559c63b401dcf3))
+* code well formatted ([1262842](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/126284275899682363caec3814347f9c224d3809))
+* delete useless recipes files ([746c773](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/746c77354f26708fdc41debdaf6c45def8f1acd3))
+* func handler on input ([a536819](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/a536819045c1496bda96cc3d1a6e62cb19c0e166))
+
 ## [1.19.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.18.0...v1.19.0) (2022-06-16)
 
 
