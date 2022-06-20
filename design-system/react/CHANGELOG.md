@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.22.7](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.22.6...ds1.22.7) (2022-06-20)
+
+
+### Bug Fixes
+
+* func handler on input ([a536819](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/a536819045c1496bda96cc3d1a6e62cb19c0e166))
+
 ### [1.22.6](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.22.5...ds1.22.6) (2022-06-20)
 
 ### [1.22.5](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/ds1.22.4...ds1.22.5) (2022-06-20)
