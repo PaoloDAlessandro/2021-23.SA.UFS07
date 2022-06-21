@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.20.1](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.20.0...v1.20.1) (2022-06-21)
+
+
+### Bug Fixes
+
+* update app ([1e26e61](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/commit/1e26e610a54f2ceddbf2c9f24a8916cfc8a25852))
+
 ## [1.20.0](https://github.com/PaoloDAlessandro/2021-23.SA.UFS07/compare/v1.19.0...v1.20.0) (2022-06-20)
 
 
