@@ -456,15 +456,17 @@ const Recipes = () => (
           type={"text"}
           onData={function () {
             const input = document.getElementById("searchRecipes");
-            console.log(input.value);
             var cards = document.getElementsByClassName("card");
-            console.log(typeof cards);
+
             for (let i = 0; i < cards.length; i++) {
               input.value.replaceAll(" ", "_");
-              if(cards[i].id.includes(input.value.replaceAll(" ", "_").toLowerCase())) {
+              if (
+                cards[i].id.includes(
+                  input.value.replaceAll(" ", "_").toLowerCase()
+                )
+              ) {
                 cards[i].style.display = "flex";
-              }
-              else {
+              } else {
                 cards[i].style.display = "none";
               }
             }
