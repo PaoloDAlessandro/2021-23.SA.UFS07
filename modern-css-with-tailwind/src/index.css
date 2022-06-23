@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: rgba(239, 246, 255, 1);
+    overflow-x: hidden;
 }
